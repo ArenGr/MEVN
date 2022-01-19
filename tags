@@ -1,0 +1,1180 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDON_REGISTER_FUNCTION_ARGS_TYPE	client/node_modules/nan/nan.h	/^  typedef v8::Handle<v8::Object> ADDON_REGISTER_FUNCTION_ARGS_TYPE;$/;"	t	namespace:Nan
+ASCII	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+ATOM_0_21_MODULE_VERSION	client/node_modules/nan/nan.h	28;"	d
+AddGCEpilogueCallback	client/node_modules/nan/nan.h	/^  inline void AddGCEpilogueCallback($/;"	f	namespace:Nan
+AddGCPrologueCallback	client/node_modules/nan/nan.h	/^  inline void AddGCPrologueCallback($/;"	f	namespace:Nan
+AdjustExternalMemory	client/node_modules/nan/nan.h	/^  inline int AdjustExternalMemory(int bc) {$/;"	f	namespace:Nan
+AsyncBareProgressQueueWorker	client/node_modules/nan/nan.h	/^  explicit AsyncBareProgressQueueWorker($/;"	f	class:Nan::AsyncBareProgressQueueWorker
+AsyncBareProgressQueueWorker	client/node_modules/nan/nan.h	/^class AsyncBareProgressQueueWorker : public AsyncBareProgressWorkerBase {$/;"	c	namespace:Nan
+AsyncBareProgressWorker	client/node_modules/nan/nan.h	/^  explicit AsyncBareProgressWorker($/;"	f	class:Nan::AsyncBareProgressWorker
+AsyncBareProgressWorker	client/node_modules/nan/nan.h	/^class AsyncBareProgressWorker : public AsyncBareProgressWorkerBase {$/;"	c	namespace:Nan
+AsyncBareProgressWorkerBase	client/node_modules/nan/nan.h	/^  explicit AsyncBareProgressWorkerBase($/;"	f	class:Nan::AsyncBareProgressWorkerBase
+AsyncBareProgressWorkerBase	client/node_modules/nan/nan.h	/^\/* abstract *\/ class AsyncBareProgressWorkerBase : public AsyncWorker {$/;"	c	namespace:Nan
+AsyncClose_	client/node_modules/nan/nan.h	/^  inline static void AsyncClose_(uv_handle_t* handle) {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+AsyncExecute	client/node_modules/nan/nan.h	/^inline void AsyncExecute (uv_work_t* req) {$/;"	f	namespace:Nan
+AsyncExecuteComplete	client/node_modules/nan/nan.h	/^inline void AsyncExecuteComplete (uv_work_t* req, int status) {$/;"	f	namespace:Nan
+AsyncExecuteComplete	client/node_modules/nan/nan.h	/^inline void AsyncExecuteComplete(uv_work_t *req) {$/;"	f	namespace:Nan
+AsyncProgressQueueWorker	client/node_modules/nan/nan.h	/^  explicit AsyncProgressQueueWorker($/;"	f	class:Nan::AsyncProgressQueueWorker
+AsyncProgressQueueWorker	client/node_modules/nan/nan.h	/^class AsyncProgressQueueWorker : public AsyncBareProgressQueueWorker<T> {$/;"	c	namespace:Nan
+AsyncProgressWorker	client/node_modules/nan/nan.h	/^typedef AsyncProgressWorkerBase<char> AsyncProgressWorker;$/;"	t	namespace:Nan
+AsyncProgressWorkerBase	client/node_modules/nan/nan.h	/^  explicit AsyncProgressWorkerBase($/;"	f	class:Nan::AsyncProgressWorkerBase
+AsyncProgressWorkerBase	client/node_modules/nan/nan.h	/^class AsyncProgressWorkerBase : public AsyncBareProgressWorker<T> {$/;"	c	namespace:Nan
+AsyncQueueWorker	client/node_modules/nan/nan.h	/^inline void AsyncQueueWorker (AsyncWorker* worker) {$/;"	f	namespace:Nan
+AsyncResource	client/node_modules/nan/nan.h	/^  AsyncResource($/;"	f	class:Nan::AsyncResource
+AsyncResource	client/node_modules/nan/nan.h	/^class AsyncResource {$/;"	c	namespace:Nan
+AsyncWorker	client/node_modules/nan/nan.h	/^  explicit AsyncWorker(Callback *callback_,$/;"	f	class:Nan::AsyncWorker
+AsyncWorker	client/node_modules/nan/nan.h	/^\/* abstract *\/ class AsyncWorker {$/;"	c	namespace:Nan
+BASE64	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+BIN	client/node_modules/body-parser/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	client/node_modules/compression/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	client/node_modules/express/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	client/node_modules/finalhandler/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	client/node_modules/send/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	client/node_modules/serve-index/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	client/node_modules/snapdragon/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BIN	node_modules/mquery/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BINARY	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+BROWSERIFY	client/node_modules/body-parser/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	client/node_modules/compression/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	client/node_modules/express/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	client/node_modules/finalhandler/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	client/node_modules/send/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	client/node_modules/serve-index/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	client/node_modules/snapdragon/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BROWSERIFY	node_modules/mquery/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+BUFFER	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+BoundScript	client/node_modules/nan/nan.h	/^typedef v8::Script             BoundScript;$/;"	t	namespace:Nan
+CHANGELOG_ERROR	client/node_modules/es-to-primitive/Makefile	/^CHANGELOG_ERROR = $(error No CHANGELOG specified)$/;"	m
+CHANGELOG_ERROR	client/node_modules/is-symbol/Makefile	/^CHANGELOG_ERROR = $(error No CHANGELOG specified)$/;"	m
+Call	client/node_modules/nan/nan.h	/^  Call(int argc, v8::Local<v8::Value> argv[]) const {$/;"	f	class:Nan::Callback
+Call	client/node_modules/nan/nan.h	/^  Call(int argc, v8::Local<v8::Value> argv[], AsyncResource* resource) const {$/;"	f	class:Nan::Callback
+Call	client/node_modules/nan/nan.h	/^  Call(v8::Local<v8::Object> target$/;"	f	class:Nan::Callback
+Call	client/node_modules/nan/nan.h	/^inline MaybeLocal<v8::Value> Call($/;"	f	namespace:Nan
+Call	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> Call($/;"	f
+Call	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> Call($/;"	f
+CallAsConstructor	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsConstructor($/;"	f
+CallAsConstructor	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsConstructor($/;"	f
+CallAsFunction	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsFunction($/;"	f
+CallAsFunction	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> CallAsFunction($/;"	f
+Call_	client/node_modules/nan/nan.h	/^  MaybeLocal<v8::Value> Call_(v8::Isolate *isolate$/;"	f	class:Nan::Callback
+Call_	client/node_modules/nan/nan.h	/^  v8::Local<v8::Value> Call_(v8::Isolate *isolate$/;"	f	class:Nan::Callback
+Call_	client/node_modules/nan/nan.h	/^  v8::Local<v8::Value> Call_(v8::Local<v8::Object> target$/;"	f	class:Nan::Callback
+Callback	client/node_modules/nan/nan.h	/^  Callback() {}$/;"	f	class:Nan::Callback
+Callback	client/node_modules/nan/nan.h	/^  explicit Callback(const v8::Local<v8::Function> &fn) : handle_(fn) {}$/;"	f	class:Nan::Callback
+Callback	client/node_modules/nan/nan.h	/^class Callback {$/;"	c	namespace:Nan
+Callback	client/node_modules/nan/nan_weak.h	/^  typedef void (*Callback)(const WeakCallbackInfo<T>& data);$/;"	t	class:WeakCallbackInfo
+Callee	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Function> Callee() const { return info_.Callee(); }$/;"	f	class:FunctionCallbackInfo
+Callee	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Function> Callee() const { return args_.Callee(); }$/;"	f	class:FunctionCallbackInfo
+CanContinue	client/node_modules/nan/nan.h	/^  inline bool CanContinue() const { return try_catch_.CanContinue(); }$/;"	f	class:Nan::TryCatch
+Check	client/node_modules/nan/nan.h	/^  inline void Check() const { FromJust(); }$/;"	f	class:Nan::Maybe
+ClearWeak	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void ClearWeak() { persistent.ClearWeak(); }$/;"	f	class:PersistentBase
+CloneElementAt	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Object> CloneElementAt($/;"	f
+CloneElementAt	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Object> CloneElementAt($/;"	f
+CompileScript	client/node_modules/nan/nan.h	/^  inline MaybeLocal<BoundScript> CompileScript($/;"	f	namespace:Nan
+ContextDisposedNotification	client/node_modules/nan/nan.h	/^  inline void ContextDisposedNotification() {$/;"	f	namespace:Nan
+Copy	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void Copy(const Persistent<S, M2> &that) {$/;"	f	class:Persistent
+Copy	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline static void Copy(const Persistent<S, M> &source,$/;"	f	class:NonCopyablePersistentTraits
+Copy	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Copy(const Persistent<S, M2> &that) {$/;"	f	class:Persistent
+Copy	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  static inline void Copy(const Persistent<S, M> &source,$/;"	f	struct:CopyablePersistentTraits
+CopyBuffer	client/node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Object> CopyBuffer($/;"	f	namespace:Nan
+CopyablePersistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  typedef Persistent<T, CopyablePersistentTraits<T> > CopyablePersistent;$/;"	t	struct:CopyablePersistentTraits
+CopyablePersistentTraits	client/node_modules/nan/nan.h	/^class CopyablePersistentTraits :$/;"	c	namespace:Nan
+CopyablePersistentTraits	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^struct CopyablePersistentTraits {$/;"	s
+DEBUG	client/node_modules/open/xdg-open	/^DEBUG()$/;"	f
+DEBUG	client/node_modules/opn/xdg-open	/^DEBUG()$/;"	f
+Data	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:FunctionCallbackInfo
+Data	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:PropertyCallbackInfo
+Data	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:FunctionCallbackInfo
+Data	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Value> Data() const { return data_; }$/;"	f	class:PropertyCallbackInfoBase
+DecodeBytes	client/node_modules/nan/nan.h	/^inline ssize_t DecodeBytes($/;"	f	namespace:Nan
+DecodeWrite	client/node_modules/nan/nan.h	/^inline ssize_t DecodeWrite($/;"	f	namespace:Nan
+DefineOwnProperty	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> DefineOwnProperty($/;"	f
+DefineOwnProperty	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> DefineOwnProperty($/;"	f
+DefineOwnPropertyHelper	client/node_modules/nan/nan_define_own_property_helper.h	/^inline Maybe<bool> DefineOwnPropertyHelper($/;"	f	namespace:imp
+Delete	client/node_modules/nan/nan_maybe_43_inl.h	/^Maybe<bool> Delete(v8::Local<v8::Object> obj, uint32_t index) {$/;"	f
+Delete	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Delete($/;"	f
+Delete	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> Delete($/;"	f
+DeletePrivate	client/node_modules/nan/nan_private.h	/^inline Maybe<bool> DeletePrivate($/;"	f
+Destroy	client/node_modules/nan/nan.h	/^  virtual void Destroy() {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+Destroy	client/node_modules/nan/nan.h	/^  virtual void Destroy() {$/;"	f	class:Nan::AsyncWorker
+E	client/node_modules/nan/nan.h	/^  enum E {kParameter, kInternalFields};$/;"	g	struct:Nan::WeakCallbackType
+EXAMPLES	client/node_modules/progress/Makefile	/^EXAMPLES = $(foreach EXAMPLE, $(wildcard examples\/*.js), $(EXAMPLE))$/;"	m
+Empty	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Empty() { persistent.Clear(); }$/;"	f	class:PersistentBase
+EmptyString	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::String> EmptyString() {$/;"	f	namespace:Nan
+Encode	client/node_modules/nan/nan.h	/^inline v8::Local<v8::Value> Encode($/;"	f	namespace:Nan
+Encode	client/node_modules/nan/nan_string_bytes.h	/^static Local<Value> Encode(const char* buf,$/;"	f	namespace:imp
+Encoding	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	g	namespace:Nan
+Equals	client/node_modules/nan/nan_maybe_43_inl.h	/^Maybe<bool> Equals(v8::Local<v8::Value> a, v8::Local<v8::Value>(b)) {$/;"	f
+Equals	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^Maybe<bool> Equals(v8::Handle<v8::Value> a, v8::Handle<v8::Value>(b)) {$/;"	f
+ErrnoException	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> ErrnoException($/;"	f	namespace:Nan
+ErrorMessage	client/node_modules/nan/nan.h	/^  const char* ErrorMessage() const {$/;"	f	class:Nan::AsyncWorker
+EscapableHandleScope	client/node_modules/nan/nan.h	/^  inline EscapableHandleScope() : scope(v8::Isolate::GetCurrent()) {}$/;"	f	class:Nan::EscapableHandleScope
+EscapableHandleScope	client/node_modules/nan/nan.h	/^class EscapableHandleScope {$/;"	c	namespace:Nan
+Escape	client/node_modules/nan/nan.h	/^  inline v8::Local<T> Escape(v8::Local<T> value) {$/;"	f	class:Nan::EscapableHandleScope
+Exception	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> Exception() const {$/;"	f	class:Nan::TryCatch
+Execute	client/node_modules/nan/nan.h	/^  void Execute() \/*final override*\/ {$/;"	f	class:Nan::AsyncBareProgressQueueWorker
+Execute	client/node_modules/nan/nan.h	/^  void Execute() \/*final override*\/ {$/;"	f	class:Nan::AsyncBareProgressWorker
+ExecutionProgress	client/node_modules/nan/nan.h	/^    explicit ExecutionProgress(AsyncBareProgressQueueWorker *that)$/;"	f	class:Nan::AsyncBareProgressQueueWorker::ExecutionProgress
+ExecutionProgress	client/node_modules/nan/nan.h	/^    explicit ExecutionProgress(AsyncBareProgressWorker *that) : that_(that) {}$/;"	f	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+ExecutionProgress	client/node_modules/nan/nan.h	/^  class ExecutionProgress {$/;"	c	class:Nan::AsyncBareProgressQueueWorker
+ExecutionProgress	client/node_modules/nan/nan.h	/^  class ExecutionProgress {$/;"	c	class:Nan::AsyncBareProgressWorker
+Export	client/node_modules/nan/nan.h	/^Export(ADDON_REGISTER_FUNCTION_ARGS_TYPE target, const char *name,$/;"	f	namespace:Nan
+ExternalOneByteStringResource	client/node_modules/nan/nan.h	/^    ExternalOneByteStringResource;$/;"	t	namespace:Nan
+FTH	client/node_modules/nan/nan_new.h	/^  typedef v8::Local<v8::FunctionTemplate> FTH;$/;"	t	struct:imp::Factory
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Array> : FactoryBase<v8::Array> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Boolean> : FactoryBase<v8::Boolean> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::BooleanObject> : FactoryBase<v8::BooleanObject> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Context> : FactoryBase<v8::Context> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Date> : MaybeFactoryBase<v8::Date> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::External> : FactoryBase<v8::External> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Function> : FactoryBase<v8::Function> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::FunctionTemplate> : FactoryBase<v8::FunctionTemplate> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Int32> : IntegerFactory<v8::Int32> {};$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Integer> : IntegerFactory<v8::Integer> {};$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Number> : FactoryBase<v8::Number> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::NumberObject> : FactoryBase<v8::NumberObject> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Object> : FactoryBase<v8::Object> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::ObjectTemplate> : FactoryBase<v8::ObjectTemplate> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::RegExp> : MaybeFactoryBase<v8::RegExp> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Script> : MaybeFactoryBase<v8::Script> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Signature> : FactoryBase<v8::Signature> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::String> : MaybeFactoryBase<v8::String> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::StringObject> : FactoryBase<v8::StringObject> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::Uint32> : FactoryBase<v8::Uint32> {$/;"	s	namespace:imp
+Factory	client/node_modules/nan/nan_new.h	/^struct Factory<v8::UnboundScript> : MaybeFactoryBase<v8::UnboundScript> {$/;"	s	namespace:imp
+FactoryBase	client/node_modules/nan/nan_new.h	/^template <typename T> struct FactoryBase {$/;"	s	namespace:imp
+False	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Boolean> False() {$/;"	f	namespace:Nan
+FatalException	client/node_modules/nan/nan.h	/^  inline void FatalException(const TryCatch& try_catch) {$/;"	f	namespace:Nan
+ForceSet	client/node_modules/nan/nan_maybe_43_inl.h	/^NAN_DEPRECATED inline Maybe<bool> ForceSet($/;"	f
+ForceSet	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^NAN_DEPRECATED inline Maybe<bool> ForceSet($/;"	f
+FreeCallback	client/node_modules/nan/nan.h	/^typedef void (*FreeCallback)(char *data, void *hint);$/;"	t	namespace:Nan
+FreeData	client/node_modules/nan/nan.h	/^  inline void FreeData(char *data, void *hint) {$/;"	f	namespace:Nan
+FromJust	client/node_modules/nan/nan.h	/^  inline T FromJust() const {$/;"	f	class:Nan::Maybe
+FromMaybe	client/node_modules/nan/nan.h	/^  inline T FromMaybe(const T& default_value) const {$/;"	f	class:Nan::Maybe
+FromMaybe	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline v8::Local<S> FromMaybe(v8::Local<S> default_value) const {$/;"	f	class:MaybeLocal
+FunctionCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*FunctionCallback)(const FunctionCallbackInfo<v8::Value>&);$/;"	t
+FunctionCallbackInfo	client/node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline FunctionCallbackInfo($/;"	f	class:FunctionCallbackInfo
+FunctionCallbackInfo	client/node_modules/nan/nan_callbacks_12_inl.h	/^class FunctionCallbackInfo {$/;"	c
+FunctionCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline FunctionCallbackInfo($/;"	f	class:FunctionCallbackInfo
+FunctionCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class FunctionCallbackInfo {$/;"	c
+FunctionCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void FunctionCallbackWrapper(const v8::FunctionCallbackInfo<v8::Value> &info) {$/;"	f	namespace:imp
+FunctionCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> FunctionCallbackWrapper(const v8::Arguments &args) {$/;"	f	namespace:imp
+GCEpilogueCallback	client/node_modules/nan/nan.h	/^  typedef v8::Isolate::GCCallback GCEpilogueCallback;$/;"	t	namespace:Nan
+GCEpilogueCallback	client/node_modules/nan/nan.h	/^  typedef v8::Isolate::GCEpilogueCallback GCEpilogueCallback;$/;"	t	namespace:Nan
+GCPrologueCallback	client/node_modules/nan/nan.h	/^  typedef v8::Isolate::GCCallback GCPrologueCallback;$/;"	t	namespace:Nan
+GCPrologueCallback	client/node_modules/nan/nan.h	/^  typedef v8::Isolate::GCPrologueCallback GCPrologueCallback;$/;"	t	namespace:Nan
+Get	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Value> Get(v8::Local<v8::Object> obj, uint32_t index) {$/;"	f
+Get	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> Get($/;"	f
+Get	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> Get($/;"	f
+GetCurrentContext	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Context> GetCurrentContext() {$/;"	f	namespace:Nan
+GetCurrentEventLoop	client/node_modules/nan/nan.h	/^inline uv_loop_t* GetCurrentEventLoop() {$/;"	f	namespace:Nan
+GetEndColumn	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<int> GetEndColumn(v8::Local<v8::Message> msg) {$/;"	f
+GetEndColumn	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<int> GetEndColumn(v8::Handle<v8::Message> msg) {$/;"	f
+GetExternalResource	client/node_modules/nan/nan.h	/^GetExternalResource(v8::Local<v8::String> str) {$/;"	f	namespace:Nan::imp
+GetFromPersistent	client/node_modules/nan/nan.h	/^  GetFromPersistent(const v8::Local<v8::String> &key) const {$/;"	f	class:Nan::AsyncWorker
+GetFromPersistent	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> GetFromPersistent(const char *key) const {$/;"	f	class:Nan::AsyncWorker
+GetFromPersistent	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> GetFromPersistent(uint32_t index) const {$/;"	f	class:Nan::AsyncWorker
+GetFunction	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Function> GetFunction() const {$/;"	f	class:Nan::Callback
+GetFunction	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Function> GetFunction($/;"	f
+GetFunction	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Function> GetFunction(v8::Handle<v8::FunctionTemplate> t) {$/;"	f
+GetHeapStatistics	client/node_modules/nan/nan.h	/^  inline void GetHeapStatistics($/;"	f	namespace:Nan
+GetInternalField	client/node_modules/nan/nan_weak.h	/^  inline void *GetInternalField(int index) const {$/;"	f	class:WeakCallbackInfo
+GetInternalFieldPointer	client/node_modules/nan/nan.h	/^  inline void* GetInternalFieldPointer($/;"	f	namespace:Nan
+GetIsolate	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Isolate *GetIsolate() const { return info_.GetIsolate(); }$/;"	f	class:FunctionCallbackInfo
+GetIsolate	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Isolate *GetIsolate() const {$/;"	f	class:ReturnValue
+GetIsolate	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Isolate* GetIsolate() const { return info_.GetIsolate(); }$/;"	f	class:PropertyCallbackInfo
+GetIsolate	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Isolate *GetIsolate() const { return args_.GetIsolate(); }$/;"	f	class:FunctionCallbackInfo
+GetIsolate	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Isolate *GetIsolate() const {$/;"	f	class:ReturnValue
+GetIsolate	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Isolate* GetIsolate() const { return info_.GetIsolate(); }$/;"	f	class:PropertyCallbackInfoBase
+GetIsolate	client/node_modules/nan/nan_weak.h	/^  inline v8::Isolate *GetIsolate() const { return isolate_; }$/;"	f	class:WeakCallbackInfo
+GetIsolateData	client/node_modules/nan/nan.h	/^  inline T *GetIsolateData($/;"	f	namespace:Nan
+GetLineNumber	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<int> GetLineNumber(v8::Local<v8::Message> msg) {$/;"	f
+GetLineNumber	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<int> GetLineNumber(v8::Handle<v8::Message> msg) {$/;"	f
+GetOwnPropertyNames	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Array> GetOwnPropertyNames(v8::Local<v8::Object> obj) {$/;"	f
+GetOwnPropertyNames	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Array> GetOwnPropertyNames(v8::Handle<v8::Object> obj) {$/;"	f
+GetParameter	client/node_modules/nan/nan_weak.h	/^  inline T *GetParameter() const { return static_cast<T*>(parameter_); }$/;"	f	class:WeakCallbackInfo
+GetPrivate	client/node_modules/nan/nan_private.h	/^GetPrivate(v8::Local<v8::Object> object, v8::Local<v8::String> key) {$/;"	f
+GetPropertyAttributes	client/node_modules/nan/nan_maybe_43_inl.h	/^inline v8::PropertyAttribute GetPropertyAttributes($/;"	f
+GetPropertyAttributes	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<v8::PropertyAttribute> GetPropertyAttributes($/;"	f
+GetPropertyNames	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Array> GetPropertyNames(v8::Local<v8::Object> obj) {$/;"	f
+GetPropertyNames	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Array> GetPropertyNames(v8::Handle<v8::Object> obj) {$/;"	f
+GetRealNamedProperty	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedProperty($/;"	f
+GetRealNamedProperty	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedProperty($/;"	f
+GetRealNamedPropertyInPrototypeChain	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedPropertyInPrototypeChain($/;"	f
+GetRealNamedPropertyInPrototypeChain	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::Value> GetRealNamedPropertyInPrototypeChain($/;"	f
+GetReturnValue	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const {$/;"	f	class:FunctionCallbackInfo
+GetReturnValue	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const { return return_value_; }$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<T> GetReturnValue() const {$/;"	f	class:FunctionCallbackInfo
+GetReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<v8::Array> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<v8::Boolean> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ReturnValue<v8::Integer> GetReturnValue() const {$/;"	f	class:PropertyCallbackInfo
+GetSourceLine	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::String> GetSourceLine(v8::Local<v8::Message> msg) {$/;"	f
+GetSourceLine	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::String> GetSourceLine(v8::Handle<v8::Message> msg) {$/;"	f
+GetStartColumn	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<int> GetStartColumn(v8::Local<v8::Message> msg) {$/;"	f
+GetStartColumn	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<int> GetStartColumn(v8::Handle<v8::Message> msg) {$/;"	f
+GetterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*GetterCallback)$/;"	t
+GetterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void GetterCallbackWrapper($/;"	f	namespace:imp
+GetterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> GetterCallbackWrapper($/;"	f	namespace:imp
+Global	client/node_modules/nan/nan_persistent_12_inl.h	/^  Global(const v8::PersistentBase<S> &that) :  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline Global() : v8::Global<T>() {}$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline Global() : v8::UniquePersistent<T>() {}$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_12_inl.h	/^  template<typename S> inline Global(v8::Local<S> that) :$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_12_inl.h	/^class Global : public v8::Global<T> {$/;"	c
+Global	client/node_modules/nan/nan_persistent_12_inl.h	/^class Global : public v8::UniquePersistent<T> {$/;"	c
+Global	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global() : PersistentBase<T>(0) { }$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global(RValue rvalue)  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global(const PersistentBase<S> &that)  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global(v8::Local<S> that)  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Global
+Global	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^class Global : public PersistentBase<T> {$/;"	c
+HEX	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+HandleErrorCallback	client/node_modules/nan/nan.h	/^  virtual void HandleErrorCallback() {$/;"	f	class:Nan::AsyncWorker
+HandleOKCallback	client/node_modules/nan/nan.h	/^  virtual void HandleOKCallback() {$/;"	f	class:Nan::AsyncWorker
+HandleScope	client/node_modules/nan/nan.h	/^  inline HandleScope() : scope() {}$/;"	f	class:Nan::HandleScope
+HandleScope	client/node_modules/nan/nan.h	/^  inline HandleScope() : scope(v8::Isolate::GetCurrent()) {}$/;"	f	class:Nan::HandleScope
+HandleScope	client/node_modules/nan/nan.h	/^class HandleScope {$/;"	c	namespace:Nan
+Has	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Has($/;"	f
+Has	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Has(v8::Local<v8::Object> obj, uint32_t index) {$/;"	f
+Has	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> Has($/;"	f
+HasCaught	client/node_modules/nan/nan.h	/^  inline bool HasCaught() const { return try_catch_.HasCaught(); }$/;"	f	class:Nan::TryCatch
+HasOwnProperty	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasOwnProperty($/;"	f
+HasOwnProperty	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasOwnProperty($/;"	f
+HasPrivate	client/node_modules/nan/nan_private.h	/^HasPrivate(v8::Local<v8::Object> object, v8::Local<v8::String> key) {$/;"	f
+HasRealIndexedProperty	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasRealIndexedProperty($/;"	f
+HasRealIndexedProperty	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasRealIndexedProperty($/;"	f
+HasRealNamedCallbackProperty	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasRealNamedCallbackProperty($/;"	f
+HasRealNamedCallbackProperty	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasRealNamedCallbackProperty($/;"	f
+HasRealNamedProperty	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> HasRealNamedProperty($/;"	f
+HasRealNamedProperty	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> HasRealNamedProperty($/;"	f
+Holder	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return info_.Holder(); }$/;"	f	class:FunctionCallbackInfo
+Holder	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return info_.Holder(); }$/;"	f	class:PropertyCallbackInfo
+Holder	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return args_.Holder(); }$/;"	f	class:FunctionCallbackInfo
+Holder	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> Holder() const { return info_.Holder(); }$/;"	f	class:PropertyCallbackInfoBase
+IOJS_1_0_MODULE_VERSION	client/node_modules/nan/nan.h	29;"	d
+IOJS_1_1_MODULE_VERSION	client/node_modules/nan/nan.h	30;"	d
+IOJS_2_0_MODULE_VERSION	client/node_modules/nan/nan.h	31;"	d
+IOJS_3_0_MODULE_VERSION	client/node_modules/nan/nan.h	32;"	d
+IdleNotification	client/node_modules/nan/nan.h	/^  inline bool IdleNotification(int idle_time_in_ms) {$/;"	f	namespace:Nan
+IndexDeleterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*IndexDeleterCallback)($/;"	t
+IndexDeleterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void IndexDeleterCallbackWrapper($/;"	f	namespace:imp
+IndexDeleterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Boolean> IndexDeleterCallbackWrapper($/;"	f	namespace:imp
+IndexEnumeratorCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*IndexEnumeratorCallback)$/;"	t
+IndexEnumeratorCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void IndexEnumeratorCallbackWrapper($/;"	f	namespace:imp
+IndexEnumeratorCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Array> IndexEnumeratorCallbackWrapper($/;"	f	namespace:imp
+IndexGetterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*IndexGetterCallback)($/;"	t
+IndexGetterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void IndexGetterCallbackWrapper($/;"	f	namespace:imp
+IndexGetterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> IndexGetterCallbackWrapper($/;"	f	namespace:imp
+IndexQueryCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*IndexQueryCallback)($/;"	t
+IndexQueryCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void IndexQueryCallbackWrapper($/;"	f	namespace:imp
+IndexQueryCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Integer> IndexQueryCallbackWrapper($/;"	f	namespace:imp
+IndexSetterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*IndexSetterCallback)($/;"	t
+IndexSetterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void IndexSetterCallbackWrapper($/;"	f	namespace:imp
+IndexSetterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> IndexSetterCallbackWrapper($/;"	f	namespace:imp
+IntegerFactory	client/node_modules/nan/nan_new.h	/^struct IntegerFactory : FactoryBase<T> {$/;"	s	namespace:imp
+IsConstructCall	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline bool IsConstructCall() const { return info_.IsConstructCall(); }$/;"	f	class:FunctionCallbackInfo
+IsConstructCall	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline bool IsConstructCall() const { return args_.IsConstructCall(); }$/;"	f	class:FunctionCallbackInfo
+IsEmpty	client/node_modules/nan/nan.h	/^  inline bool IsEmpty() const {$/;"	f	class:Nan::Callback
+IsEmpty	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool IsEmpty() const { return val_.IsEmpty(); }$/;"	f	class:MaybeLocal
+IsEmpty	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsEmpty() const { return persistent.IsEmpty(); }$/;"	f	class:PersistentBase
+IsExternal	client/node_modules/nan/nan.h	/^IsExternal(v8::Local<v8::String> str) {$/;"	f	namespace:Nan::imp
+IsIndependent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsIndependent() const { return persistent.IsIndependent(); }$/;"	f	class:PersistentBase
+IsJust	client/node_modules/nan/nan.h	/^  inline bool IsJust() const { return has_value_; }$/;"	f	class:Nan::Maybe
+IsNearDeath	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsNearDeath() const { return persistent.IsNearDeath(); }$/;"	f	class:PersistentBase
+IsNothing	client/node_modules/nan/nan.h	/^  inline bool IsNothing() const { return !has_value_; }$/;"	f	class:Nan::Maybe
+IsWeak	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool IsWeak() const { return persistent.IsWeak(); }$/;"	f	class:PersistentBase
+JSL	client/node_modules/extsprintf/Makefile	/^JSL		 = jsl$/;"	m
+JSL_CONF_NODE	client/node_modules/extsprintf/Makefile	/^JSL_CONF_NODE	 = jsl.node.conf$/;"	m
+JSL_FILES_NODE	client/node_modules/extsprintf/Makefile	/^JSL_FILES_NODE   = $(JS_FILES)$/;"	m
+JSON	client/node_modules/nan/nan_json.h	/^  JSON() {$/;"	f	class:JSON
+JSON	client/node_modules/nan/nan_json.h	/^class JSON {$/;"	c
+JSSTYLE	client/node_modules/extsprintf/Makefile	/^JSSTYLE		 = jsstyle$/;"	m
+JSSTYLE_FILES	client/node_modules/extsprintf/Makefile	/^JSSTYLE_FILES	 = $(JS_FILES)$/;"	m
+JS_FILES	client/node_modules/extsprintf/Makefile	/^JS_FILES	:= $(shell find examples lib -name '*.js')$/;"	m
+Just	client/node_modules/nan/nan.h	/^inline Maybe<T> Just(const T& t) {$/;"	f	namespace:Nan
+Length	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline int Length() const { return info_.Length(); }$/;"	f	class:FunctionCallbackInfo
+Length	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline int Length() const { return args_.Length(); }$/;"	f	class:FunctionCallbackInfo
+LowMemoryNotification	client/node_modules/nan/nan.h	/^  inline void LowMemoryNotification() {$/;"	f	namespace:Nan
+MakeCallback	client/node_modules/nan/nan.h	/^  NAN_DEPRECATED inline v8::Local<v8::Value> MakeCallback($/;"	f	namespace:Nan
+MakeCallback	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> MakeCallback($/;"	f	namespace:Nan
+MakeMaybe	client/node_modules/nan/nan.h	/^MakeMaybe(MaybeMaybe<T> v) {$/;"	f	namespace:Nan
+MakeWeak	client/node_modules/nan/nan_object_wrap.h	/^  inline void MakeWeak() {$/;"	f	class:ObjectWrap
+MarkIndependent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void MarkIndependent() { persistent.MarkIndependent(); }$/;"	f	class:PersistentBase
+Maybe	client/node_modules/nan/nan.h	/^  Maybe() : has_value_(false) {}$/;"	f	class:Nan::Maybe
+Maybe	client/node_modules/nan/nan.h	/^  Maybe(const v8::Maybe<T>& that)  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Nan::Maybe
+Maybe	client/node_modules/nan/nan.h	/^  explicit Maybe(const T& t) : has_value_(true), value_(t) {}$/;"	f	class:Nan::Maybe
+Maybe	client/node_modules/nan/nan.h	/^class Maybe {$/;"	c	namespace:Nan
+MaybeFactoryBase	client/node_modules/nan/nan_new.h	/^template <typename T> struct MaybeFactoryBase {$/;"	s	namespace:imp
+MaybeLocal	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^  MaybeLocal(v8::Local<S> that) : val_(that) {}  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:MaybeLocal
+MaybeLocal	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline MaybeLocal() : val_(v8::Local<T>()) {}$/;"	f	class:MaybeLocal
+MaybeLocal	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^class MaybeLocal {$/;"	c
+Maybefier	client/node_modules/nan/nan.h	/^template <typename T> struct Maybefier<MaybeLocal<T> > {$/;"	s	namespace:Nan::imp
+Maybefier	client/node_modules/nan/nan.h	/^template <typename T> struct Maybefier<v8::Local<T> > {$/;"	s	namespace:Nan::imp
+Message	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Message> Message() const {$/;"	f	class:Nan::TryCatch
+NAN_CALLBACKS_12_INL_H_	client/node_modules/nan/nan_callbacks_12_inl.h	10;"	d
+NAN_CALLBACKS_H_	client/node_modules/nan/nan_callbacks.h	10;"	d
+NAN_CALLBACKS_PRE_12_INL_H_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	10;"	d
+NAN_CONCAT	client/node_modules/nan/nan.h	99;"	d
+NAN_CONCAT_HELPER	client/node_modules/nan/nan.h	100;"	d
+NAN_CONVERTERS_43_INL_H_	client/node_modules/nan/nan_converters_43_inl.h	10;"	d
+NAN_CONVERTERS_H_	client/node_modules/nan/nan_converters.h	10;"	d
+NAN_CONVERTERS_PRE_43_INL_H_	client/node_modules/nan/nan_converters_pre_43_inl.h	10;"	d
+NAN_DEFINE_OWN_PROPERTY_HELPER_H_	client/node_modules/nan/nan_define_own_property_helper.h	10;"	d
+NAN_DEPRECATED	client/node_modules/nan/nan.h	106;"	d
+NAN_DISALLOW_ASSIGN	client/node_modules/nan/nan.h	115;"	d
+NAN_DISALLOW_ASSIGN_COPY	client/node_modules/nan/nan.h	126;"	d
+NAN_DISALLOW_ASSIGN_COPY_MOVE	client/node_modules/nan/nan.h	138;"	d
+NAN_DISALLOW_ASSIGN_MOVE	client/node_modules/nan/nan.h	130;"	d
+NAN_DISALLOW_COPY	client/node_modules/nan/nan.h	116;"	d
+NAN_DISALLOW_COPY_MOVE	client/node_modules/nan/nan.h	134;"	d
+NAN_DISALLOW_MOVE	client/node_modules/nan/nan.h	117;"	d
+NAN_EXPORT	client/node_modules/nan/nan.h	2858;"	d
+NAN_GC_CALLBACK	client/node_modules/nan/nan.h	1256;"	d
+NAN_GC_CALLBACK	client/node_modules/nan/nan.h	805;"	d
+NAN_GETTER	client/node_modules/nan/nan.h	1569;"	d
+NAN_GETTER_ARGS_TYPE	client/node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<v8::Value>& NAN_GETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_GETTER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_GETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_HAS_CPLUSPLUS_11	client/node_modules/nan/nan.h	46;"	d
+NAN_HAS_CPLUSPLUS_11	client/node_modules/nan/nan.h	48;"	d
+NAN_H_	client/node_modules/nan/nan.h	22;"	d
+NAN_IMPLEMENTATION_12_INL_H_	client/node_modules/nan/nan_implementation_12_inl.h	10;"	d
+NAN_IMPLEMENTATION_PRE_12_INL_H_	client/node_modules/nan/nan_implementation_pre_12_inl.h	10;"	d
+NAN_INDEX_DELETER	client/node_modules/nan/nan.h	1610;"	d
+NAN_INDEX_DELETER_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_INDEX_DELETER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_DELETER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_INDEX_DELETER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_ENUMERATOR	client/node_modules/nan/nan.h	1607;"	d
+NAN_INDEX_ENUMERATOR_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_INDEX_ENUMERATOR_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_ENUMERATOR_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_INDEX_ENUMERATOR_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_GETTER	client/node_modules/nan/nan.h	1598;"	d
+NAN_INDEX_GETTER_ARGS_TYPE	client/node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<v8::Value>& NAN_INDEX_GETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_GETTER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_INDEX_GETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_QUERY	client/node_modules/nan/nan.h	1614;"	d
+NAN_INDEX_QUERY_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_INDEX_QUERY_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_QUERY_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_INDEX_QUERY_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_SETTER	client/node_modules/nan/nan.h	1602;"	d
+NAN_INDEX_SETTER_ARGS_TYPE	client/node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<v8::Value>& NAN_INDEX_SETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_INDEX_SETTER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_INDEX_SETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_INLINE	client/node_modules/nan/nan.h	102;"	d
+NAN_JSON_H_	client/node_modules/nan/nan_json.h	10;"	d
+NAN_JSON_H_NEED_PARSE	client/node_modules/nan/nan_json.h	13;"	d
+NAN_JSON_H_NEED_PARSE	client/node_modules/nan/nan_json.h	15;"	d
+NAN_JSON_H_NEED_STRINGIFY	client/node_modules/nan/nan_json.h	19;"	d
+NAN_JSON_H_NEED_STRINGIFY	client/node_modules/nan/nan_json.h	21;"	d
+NAN_MAYBE_43_INL_H_	client/node_modules/nan/nan_maybe_43_inl.h	10;"	d
+NAN_MAYBE_PRE_43_INL_H_	client/node_modules/nan/nan_maybe_pre_43_inl.h	10;"	d
+NAN_METHOD	client/node_modules/nan/nan.h	1567;"	d
+NAN_METHOD_ARGS_TYPE	client/node_modules/nan/nan.h	/^typedef const FunctionCallbackInfo<v8::Value>& NAN_METHOD_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_METHOD_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_METHOD_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_MODULE_INIT	client/node_modules/nan/nan.h	156;"	d
+NAN_MODULE_WORKER_ENABLED	client/node_modules/nan/nan.h	161;"	d
+NAN_MODULE_WORKER_ENABLED	client/node_modules/nan/nan.h	170;"	d
+NAN_NEW_H_	client/node_modules/nan/nan_new.h	10;"	d
+NAN_OBJECT_WRAP_H_	client/node_modules/nan/nan_object_wrap.h	10;"	d
+NAN_PERSISTENT_12_INL_H_	client/node_modules/nan/nan_persistent_12_inl.h	10;"	d
+NAN_PERSISTENT_PRE_12_INL_H_	client/node_modules/nan/nan_persistent_pre_12_inl.h	10;"	d
+NAN_PRIVATE_H_	client/node_modules/nan/nan_private.h	10;"	d
+NAN_PROPERTY_DELETER	client/node_modules/nan/nan.h	1590;"	d
+NAN_PROPERTY_DELETER_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_PROPERTY_DELETER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_DELETER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_DELETER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_ENUMERATOR	client/node_modules/nan/nan.h	1587;"	d
+NAN_PROPERTY_ENUMERATOR_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_PROPERTY_ENUMERATOR_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_ENUMERATOR_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_ENUMERATOR_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_GETTER	client/node_modules/nan/nan.h	1578;"	d
+NAN_PROPERTY_GETTER_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_PROPERTY_GETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_GETTER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_GETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_QUERY	client/node_modules/nan/nan.h	1594;"	d
+NAN_PROPERTY_QUERY_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_PROPERTY_QUERY_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_QUERY_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_QUERY_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_SETTER	client/node_modules/nan/nan.h	1582;"	d
+NAN_PROPERTY_SETTER_ARGS_TYPE	client/node_modules/nan/nan.h	/^    NAN_PROPERTY_SETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_PROPERTY_SETTER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_PROPERTY_SETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_SETTER	client/node_modules/nan/nan.h	1573;"	d
+NAN_SETTER_ARGS_TYPE	client/node_modules/nan/nan.h	/^typedef const PropertyCallbackInfo<void>& NAN_SETTER_ARGS_TYPE;$/;"	t	namespace:Nan
+NAN_SETTER_RETURN_TYPE	client/node_modules/nan/nan.h	/^typedef void NAN_SETTER_RETURN_TYPE;$/;"	t	namespace:Nan
+NAN_STRINGIZE	client/node_modules/nan/nan.h	2854;"	d
+NAN_STRINGIZE2	client/node_modules/nan/nan.h	2853;"	d
+NAN_STRING_BYTES_H_	client/node_modules/nan/nan_string_bytes.h	23;"	d
+NAN_TEST_EXPRESSION	client/node_modules/nan/nan.h	2855;"	d
+NAN_TYPEDARRAY_CONTENTS_H_	client/node_modules/nan/nan_typedarray_contents.h	10;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	229;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	251;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	38;"	d
+NAN_WEAK_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	42;"	d
+NAN_WEAK_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	228;"	d
+NAN_WEAK_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	250;"	d
+NAN_WEAK_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	40;"	d
+NAN_WEAK_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	43;"	d
+NAN_WEAK_H_	client/node_modules/nan/nan_weak.h	10;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	162;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	17;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	204;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	24;"	d
+NAN_WEAK_PARAMETER_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	31;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	160;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	202;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	21;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	28;"	d
+NAN_WEAK_PARAMETER_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	35;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	163;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	19;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	205;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	26;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_DATA_TYPE_	client/node_modules/nan/nan_weak.h	33;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	161;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	203;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	22;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	29;"	d
+NAN_WEAK_TWOFIELD_CALLBACK_SIG_	client/node_modules/nan/nan_weak.h	36;"	d
+NAUV_UVVERSION	client/node_modules/nan/nan.h	82;"	d
+NAUV_UVVERSION	client/node_modules/nan/nan.h	86;"	d
+NAUV_WORK_CB	client/node_modules/nan/nan.h	/^  inline static NAUV_WORK_CB(AsyncProgress_) {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+NAUV_WORK_CB	client/node_modules/nan/nan.h	293;"	d
+NAUV_WORK_CB	client/node_modules/nan/nan.h	296;"	d
+NODE	client/node_modules/body-parser/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	client/node_modules/compression/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	client/node_modules/express/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	client/node_modules/finalhandler/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	client/node_modules/send/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	client/node_modules/serve-index/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	client/node_modules/snapdragon/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE	node_modules/mquery/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NODE_0_10_MODULE_VERSION	client/node_modules/nan/nan.h	26;"	d
+NODE_0_12_MODULE_VERSION	client/node_modules/nan/nan.h	27;"	d
+NODE_10_0_MODULE_VERSION	client/node_modules/nan/nan.h	39;"	d
+NODE_11_0_MODULE_VERSION	client/node_modules/nan/nan.h	40;"	d
+NODE_12_0_MODULE_VERSION	client/node_modules/nan/nan.h	41;"	d
+NODE_13_0_MODULE_VERSION	client/node_modules/nan/nan.h	42;"	d
+NODE_14_0_MODULE_VERSION	client/node_modules/nan/nan.h	43;"	d
+NODE_4_0_MODULE_VERSION	client/node_modules/nan/nan.h	33;"	d
+NODE_5_0_MODULE_VERSION	client/node_modules/nan/nan.h	34;"	d
+NODE_6_0_MODULE_VERSION	client/node_modules/nan/nan.h	35;"	d
+NODE_7_0_MODULE_VERSION	client/node_modules/nan/nan.h	36;"	d
+NODE_8_0_MODULE_VERSION	client/node_modules/nan/nan.h	37;"	d
+NODE_9_0_MODULE_VERSION	client/node_modules/nan/nan.h	38;"	d
+NODE_OPTS	client/node_modules/json-stringify-safe/Makefile	/^NODE_OPTS =$/;"	m
+Nan	client/node_modules/nan/nan.h	/^namespace Nan {$/;"	n
+NanErrnoException	client/node_modules/nan/nan.h	/^  NAN_DEPRECATED inline v8::Local<v8::Value> NanErrnoException($/;"	f	namespace:Nan
+NativeFunction	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeFunction)(const v8::FunctionCallbackInfo<v8::Value> &);$/;"	t	namespace:imp
+NativeFunction	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeFunction)(const v8::Arguments &);$/;"	t	class:imp::v8
+NativeGetter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeGetter)$/;"	t	namespace:imp
+NativeGetter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeGetter)$/;"	t	class:imp::v8
+NativeIndexDeleter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexDeleter)$/;"	t	namespace:imp
+NativeIndexDeleter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Boolean> (*NativeIndexDeleter)$/;"	t	class:imp::v8
+NativeIndexEnumerator	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexEnumerator)$/;"	t	namespace:imp
+NativeIndexEnumerator	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Array> (*NativeIndexEnumerator)$/;"	t	class:imp::v8
+NativeIndexGetter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexGetter)$/;"	t	namespace:imp
+NativeIndexGetter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeIndexGetter)$/;"	t	class:imp::v8
+NativeIndexQuery	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexQuery)$/;"	t	namespace:imp
+NativeIndexQuery	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Integer> (*NativeIndexQuery)$/;"	t	class:imp::v8
+NativeIndexSetter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeIndexSetter)($/;"	t	namespace:imp
+NativeIndexSetter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativeIndexSetter)$/;"	t	class:imp::v8
+NativePropertyDeleter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (NativePropertyDeleter)$/;"	t	namespace:imp
+NativePropertyDeleter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Boolean> (NativePropertyDeleter)$/;"	t	class:imp::v8
+NativePropertyEnumerator	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertyEnumerator)$/;"	t	namespace:imp
+NativePropertyEnumerator	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Array> (*NativePropertyEnumerator)$/;"	t	class:imp::v8
+NativePropertyGetter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertyGetter)$/;"	t	namespace:imp
+NativePropertyGetter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativePropertyGetter)$/;"	t	class:imp::v8
+NativePropertyQuery	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertyQuery)$/;"	t	namespace:imp
+NativePropertyQuery	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Integer> (*NativePropertyQuery)$/;"	t	class:imp::v8
+NativePropertySetter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativePropertySetter)($/;"	t	namespace:imp
+NativePropertySetter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef v8::Handle<v8::Value> (*NativePropertySetter)$/;"	t	class:imp::v8
+NativeSetter	client/node_modules/nan/nan_callbacks_12_inl.h	/^typedef void (*NativeSetter)($/;"	t	namespace:imp
+NativeSetter	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^typedef void (*NativeSetter)$/;"	t	namespace:imp
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Array>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Array>::New(int length) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Boolean>::New(bool value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::BooleanObject>::New(bool value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Context>::New( v8::ExtensionConfiguration* extensions$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Date>::New(double value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::External>::New(void * value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Function>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::FunctionTemplate>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Number>::New(double value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::NumberObject>::New(double value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Object>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::ObjectTemplate>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::RegExp>::New($/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Signature>::New(Factory<v8::Signature>::FTH receiver) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New($/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(ExternalOneByteStringResource * value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(const char * value, int length) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(const uint16_t * value, int length) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(std::string const& value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::String>::New(v8::String::ExternalStringResource * value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::StringObject>::New(v8::Local<v8::String> value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Uint32>::New(int32_t value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::Uint32>::New(uint32_t value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::UnboundScript>::New( v8::Local<v8::String> source$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^Factory<v8::UnboundScript>::New(v8::Local<v8::String> source) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^IntegerFactory<T>::New(int32_t value) {$/;"	f	class:imp::IntegerFactory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^IntegerFactory<T>::New(uint32_t value) {$/;"	f	class:imp::IntegerFactory
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(Global<T> const& p) {$/;"	f
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(Persistent<T, M> const& p) {$/;"	f
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(v8::Handle<T> h) {$/;"	f
+New	client/node_modules/nan/nan_implementation_12_inl.h	/^inline v8::Local<T> New(v8::Persistent<T, M> const& p) {$/;"	f
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Array>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Array>::New(int length) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Boolean>::New(bool value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::BooleanObject>::New(bool value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Context>::New( v8::ExtensionConfiguration* extensions$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Date>::New(double value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::External>::New(void * value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Function>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::FunctionTemplate>::New( FunctionCallback callback$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Number>::New(double value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::NumberObject>::New(double value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Object>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::ObjectTemplate>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::RegExp>::New($/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Script>::New( v8::Local<v8::String> source) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Signature>::New(Factory<v8::Signature>::FTH receiver) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New($/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New() {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(const char * value, int length) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(const uint16_t * value, int length) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(v8::String::ExternalAsciiStringResource * value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::String>::New(v8::String::ExternalStringResource * value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::StringObject>::New(v8::Local<v8::String> value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Uint32>::New(int32_t value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^Factory<v8::Uint32>::New(uint32_t value) {$/;"	f	class:imp::Factory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^IntegerFactory<T>::New(int32_t value) {$/;"	f	class:imp::IntegerFactory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^IntegerFactory<T>::New(uint32_t value) {$/;"	f	class:imp::IntegerFactory
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(Global<T> const& p) {$/;"	f
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(Persistent<T, M> const& p) {$/;"	f
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(v8::Handle<T> h) {$/;"	f
+New	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^inline v8::Local<T> New(v8::Persistent<T> const& p) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New( FunctionCallback callback$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New() {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(A0 arg0) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(A0 arg0, A1 arg1) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(A0 arg0, A1 arg1, A2 arg2) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(A0 arg0, A1 arg1, A2 arg2, A3 arg3) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(ExternalOneByteStringResource * value) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(bool value) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(const char * value) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(const char * value, int length) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(const uint16_t * value) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(const uint16_t * value, int length) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(double value) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(int32_t value) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(std::string const& value) {  \/\/ NOLINT(build\/include_what_you_use)$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(uint32_t value) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(v8::Local<v8::String> pattern, v8::RegExp::Flags flags) {$/;"	f
+New	client/node_modules/nan/nan_new.h	/^New(v8::String::ExternalStringResource * value) {$/;"	f
+NewBuffer	client/node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Object> NewBuffer($/;"	f	namespace:Nan
+NewBuffer	client/node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Object> NewBuffer(uint32_t size) {$/;"	f	namespace:Nan
+NewInstance	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Object> NewInstance($/;"	f
+NewInstance	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Local<v8::Function> h) {$/;"	f
+NewInstance	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Local<v8::ObjectTemplate> h) {$/;"	f
+NewInstance	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Object> NewInstance($/;"	f
+NewInstance	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Handle<v8::Function> h) {$/;"	f
+NewInstance	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Object> NewInstance(v8::Handle<v8::ObjectTemplate> h) {$/;"	f
+NewOneByteString	client/node_modules/nan/nan.h	/^  NewOneByteString(const uint8_t * value, int length = -1) {$/;"	f	namespace:Nan
+NonCopyablePersistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^      NonCopyablePersistent;$/;"	t	class:NonCopyablePersistentTraits
+NonCopyablePersistentTraits	client/node_modules/nan/nan.h	/^class NonCopyablePersistentTraits :$/;"	c	namespace:Nan
+NonCopyablePersistentTraits	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^class NonCopyablePersistentTraits {$/;"	c
+Nothing	client/node_modules/nan/nan.h	/^inline Maybe<T> Nothing() {$/;"	f	namespace:Nan
+Null	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Primitive> Null() {$/;"	f	namespace:Nan
+NumberOfHandles	client/node_modules/nan/nan.h	/^  inline static int NumberOfHandles() {$/;"	f	class:Nan::EscapableHandleScope
+NumberOfHandles	client/node_modules/nan/nan.h	/^  inline static int NumberOfHandles() {$/;"	f	class:Nan::HandleScope
+ObjectProtoToString	client/node_modules/nan/nan_maybe_43_inl.h	/^inline MaybeLocal<v8::String> ObjectProtoToString($/;"	f
+ObjectProtoToString	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline MaybeLocal<v8::String> ObjectProtoToString($/;"	f
+ObjectWrap	client/node_modules/nan/nan_object_wrap.h	/^  ObjectWrap() {$/;"	f	class:ObjectWrap
+ObjectWrap	client/node_modules/nan/nan_object_wrap.h	/^class ObjectWrap {$/;"	c
+PATH	client/node_modules/body-parser/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	client/node_modules/compression/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	client/node_modules/es-to-primitive/Makefile	/^export PATH := $(shell printf '%s' "$$PWD\/node_modules\/.bin:$$PATH")$/;"	m
+PATH	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	client/node_modules/express/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	client/node_modules/finalhandler/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	client/node_modules/is-symbol/Makefile	/^export PATH := $(shell printf '%s' "$$PWD\/node_modules\/.bin:$$PATH")$/;"	m
+PATH	client/node_modules/send/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	client/node_modules/serve-index/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	client/node_modules/snapdragon/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PATH	node_modules/mquery/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PKG	client/node_modules/body-parser/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	client/node_modules/compression/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	client/node_modules/express/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	client/node_modules/finalhandler/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	client/node_modules/send/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	client/node_modules/serve-index/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	client/node_modules/snapdragon/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+PKG	node_modules/mquery/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+Parse	client/node_modules/nan/nan_json.h	/^  Nan::MaybeLocal<v8::Value> Parse(v8::Local<v8::String> json_string) {$/;"	f	class:JSON
+Pass	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  Global Pass() { return Global(RValue(this)); }$/;"	f	class:Global
+Persistent	client/node_modules/nan/nan_persistent_12_inl.h	/^  Persistent(const v8::Persistent<S, M2> &that) :  \/\/ NOLINT(runtime\/explicit)$/;"	f	class:Persistent
+Persistent	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline Persistent() : v8::Persistent<T, M>() {}$/;"	f	class:Persistent
+Persistent	client/node_modules/nan/nan_persistent_12_inl.h	/^  template<typename S> inline Persistent(v8::Local<S> that) :$/;"	f	class:Persistent
+Persistent	client/node_modules/nan/nan_persistent_12_inl.h	/^template<typename T, typename M> class Persistent :$/;"	c
+Persistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent() {}$/;"	f	class:Persistent
+Persistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent(const Persistent &that) : PersistentBase<T>() {$/;"	f	class:Persistent
+Persistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent(const Persistent<S, M2> &that) :$/;"	f	class:Persistent
+Persistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  template<typename S> inline Persistent(v8::Handle<S> that)$/;"	f	class:Persistent
+Persistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^template<typename T, typename M> class Persistent :$/;"	c
+PersistentBase	client/node_modules/nan/nan.h	/^class PersistentBase :$/;"	c	namespace:Nan
+PersistentBase	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline PersistentBase() :$/;"	f	class:PersistentBase
+PersistentBase	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline explicit PersistentBase(T *val) : persistent(val) {}$/;"	f	class:PersistentBase
+PersistentBase	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline explicit PersistentBase(v8::Persistent<T> that) :$/;"	f	class:PersistentBase
+PersistentBase	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^class PersistentBase {$/;"	c
+PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline PropertyCallbackInfo($/;"	f	class:PropertyCallbackInfo
+PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_12_inl.h	/^class PropertyCallbackInfo {$/;"	c
+PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline PropertyCallbackInfo($/;"	f	class:PropertyCallbackInfo
+PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo : public PropertyCallbackInfoBase<T> {$/;"	c
+PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo<v8::Array> :$/;"	c
+PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo<v8::Boolean> :$/;"	c
+PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfo<v8::Integer> :$/;"	c
+PropertyCallbackInfoBase	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline PropertyCallbackInfoBase($/;"	f	class:PropertyCallbackInfoBase
+PropertyCallbackInfoBase	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class PropertyCallbackInfoBase {$/;"	c
+PropertyDeleterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyDeleterCallback)($/;"	t
+PropertyDeleterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyDeleterCallbackWrapper($/;"	f	namespace:imp
+PropertyDeleterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Boolean> PropertyDeleterCallbackWrapper($/;"	f	namespace:imp
+PropertyEnumeratorCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyEnumeratorCallback)$/;"	t
+PropertyEnumeratorCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyEnumeratorCallbackWrapper($/;"	f	namespace:imp
+PropertyEnumeratorCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Array> PropertyEnumeratorCallbackWrapper($/;"	f	namespace:imp
+PropertyGetterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyGetterCallback)($/;"	t
+PropertyGetterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyGetterCallbackWrapper($/;"	f	namespace:imp
+PropertyGetterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> PropertyGetterCallbackWrapper($/;"	f	namespace:imp
+PropertyQueryCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*PropertyQueryCallback)($/;"	t
+PropertyQueryCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void PropertyQueryCallbackWrapper($/;"	f	namespace:imp
+PropertyQueryCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Integer> PropertyQueryCallbackWrapper($/;"	f	namespace:imp
+PropertySetterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*PropertySetterCallback)($/;"	t
+PropertySetterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void PropertySetterCallbackWrapper($/;"	f	namespace:imp
+PropertySetterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^v8::Handle<v8::Value> PropertySetterCallbackWrapper($/;"	f	namespace:imp
+RValue	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^    inline explicit RValue(Global* obj) : object(obj) {}$/;"	f	struct:Global::RValue
+RValue	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  struct RValue {$/;"	s	class:Global
+ReThrow	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Value> ReThrow() {$/;"	f	class:Nan::TryCatch
+Ref	client/node_modules/nan/nan_object_wrap.h	/^  virtual void Ref() {$/;"	f	class:ObjectWrap
+RemoveGCEpilogueCallback	client/node_modules/nan/nan.h	/^  inline void RemoveGCEpilogueCallback($/;"	f	namespace:Nan
+RemoveGCPrologueCallback	client/node_modules/nan/nan.h	/^  inline void RemoveGCPrologueCallback($/;"	f	namespace:Nan
+Reset	client/node_modules/nan/nan.h	/^  inline void Reset() { try_catch_.Reset(); }$/;"	f	class:Nan::TryCatch
+Reset	client/node_modules/nan/nan.h	/^  inline void Reset() {$/;"	f	class:Nan::Callback
+Reset	client/node_modules/nan/nan.h	/^  inline void Reset(const v8::Local<v8::Function> &fn) {$/;"	f	class:Nan::Callback
+Reset	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset() { v8::PersistentBase<T>::Reset(); }$/;"	f	class:Global
+Reset	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset() { v8::PersistentBase<T>::Reset(); }$/;"	f	class:Persistent
+Reset	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::Local<S> &other) {$/;"	f	class:Global
+Reset	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::Local<S> &other) {$/;"	f	class:Persistent
+Reset	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::PersistentBase<S> &other) {$/;"	f	class:Global
+Reset	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void Reset(const v8::PersistentBase<S> &other) {$/;"	f	class:Persistent
+Reset	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Reset() {$/;"	f	class:PersistentBase
+Reset	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Reset(const PersistentBase<S> &other) {$/;"	f	class:PersistentBase
+Reset	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline void Reset(const v8::Local<S> &other) {$/;"	f	class:PersistentBase
+ReturnValue	client/node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline ReturnValue(const ReturnValue<S>& that)$/;"	f	class:ReturnValue
+ReturnValue	client/node_modules/nan/nan_callbacks_12_inl.h	/^  explicit inline ReturnValue(const v8::ReturnValue<S> &value) :$/;"	f	class:ReturnValue
+ReturnValue	client/node_modules/nan/nan_callbacks_12_inl.h	/^class ReturnValue {$/;"	c
+ReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline ReturnValue(const ReturnValue<S>& that)$/;"	f	class:ReturnValue
+ReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit inline ReturnValue(v8::Isolate *isolate, v8::Persistent<S> *p) :$/;"	f	class:ReturnValue
+ReturnValue	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class ReturnValue {$/;"	c
+ReturnValueImp	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  explicit ReturnValueImp(ReturnValue<T> that) :$/;"	f	class:imp::ReturnValueImp
+ReturnValueImp	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^class ReturnValueImp : public ReturnValue<T> {$/;"	c	namespace:imp
+RunScript	client/node_modules/nan/nan.h	/^  MaybeLocal<v8::Value> RunScript(v8::Local<v8::Script> script) {$/;"	f	namespace:Nan
+RunScript	client/node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> RunScript($/;"	f	namespace:Nan
+SHELL	client/node_modules/body-parser/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/compression/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/delayed-stream/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/express/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/finalhandler/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/retry/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/send/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/serve-index/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	client/node_modules/snapdragon/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SHELL	node_modules/mquery/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+SaveToPersistent	client/node_modules/nan/nan.h	/^  inline void SaveToPersistent($/;"	f	class:Nan::AsyncWorker
+Send	client/node_modules/nan/nan.h	/^    void Send(const T* data, size_t count) const {$/;"	f	class:Nan::AsyncBareProgressQueueWorker::ExecutionProgress
+Send	client/node_modules/nan/nan.h	/^    void Send(const T* data, size_t count) const {$/;"	f	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+SendProgress_	client/node_modules/nan/nan.h	/^  void SendProgress_(const T *data, size_t count) {$/;"	f	class:Nan::AsyncProgressQueueWorker
+SendProgress_	client/node_modules/nan/nan.h	/^  void SendProgress_(const T *data, size_t count) {$/;"	f	class:Nan::AsyncProgressWorkerBase
+Set	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(S *whatever) { TYPE_CHECK(S*, v8::Primitive); }$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(bool value) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(double i) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(int32_t i) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void Set(uint32_t i) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_12_inl.h	/^  template <typename S> inline void Set(const Global<S> &handle) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_12_inl.h	/^  template <typename S> inline void Set(const v8::Local<S> &handle) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(S *whatever) { TYPE_CHECK(S*, v8::Primitive); }$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(bool value) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(double i) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(int32_t i) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void Set(uint32_t i) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  template <typename S> inline void Set(const Global<S> &handle) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  template <typename S> inline void Set(const v8::Local<S> &handle) {$/;"	f	class:ReturnValue
+Set	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> Set($/;"	f
+Set	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> Set($/;"	f
+SetAccessor	client/node_modules/nan/nan.h	/^inline bool SetAccessor($/;"	f	namespace:Nan
+SetAccessor	client/node_modules/nan/nan.h	/^inline void SetAccessor($/;"	f	namespace:Nan
+SetAddHistogramSampleFunction	client/node_modules/nan/nan.h	/^  void SetAddHistogramSampleFunction(v8::AddHistogramSampleCallback cb) {$/;"	f	namespace:Nan
+SetCallAsFunctionHandler	client/node_modules/nan/nan.h	/^inline void SetCallAsFunctionHandler($/;"	f	namespace:Nan
+SetCallHandler	client/node_modules/nan/nan.h	/^inline void SetCallHandler($/;"	f	namespace:Nan
+SetCaptureMessage	client/node_modules/nan/nan.h	/^  inline void SetCaptureMessage(bool value) {$/;"	f	class:Nan::TryCatch
+SetCounterFunction	client/node_modules/nan/nan.h	/^  void SetCounterFunction(v8::CounterLookupCallback cb) {$/;"	f	namespace:Nan
+SetCreateHistogramFunction	client/node_modules/nan/nan.h	/^  void SetCreateHistogramFunction(v8::CreateHistogramCallback cb) {$/;"	f	namespace:Nan
+SetEmptyString	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void SetEmptyString() {$/;"	f	class:ReturnValue
+SetEmptyString	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void SetEmptyString() {$/;"	f	class:ReturnValue
+SetErrorMessage	client/node_modules/nan/nan.h	/^  void SetErrorMessage(const char *msg) {$/;"	f	class:Nan::AsyncWorker
+SetFunction	client/node_modules/nan/nan.h	/^  inline void SetFunction(const v8::Local<v8::Function> &fn) {$/;"	f	class:Nan::Callback
+SetIndexedPropertyHandler	client/node_modules/nan/nan.h	/^inline void SetIndexedPropertyHandler($/;"	f	namespace:Nan
+SetInstanceTemplate	client/node_modules/nan/nan.h	/^inline void SetInstanceTemplate($/;"	f	namespace:Nan
+SetInternalFieldPointer	client/node_modules/nan/nan.h	/^  inline void SetInternalFieldPointer($/;"	f	namespace:Nan
+SetIsolateData	client/node_modules/nan/nan.h	/^  inline void SetIsolateData($/;"	f	namespace:Nan
+SetMethod	client/node_modules/nan/nan.h	/^inline void SetMethod($/;"	f	namespace:Nan
+SetMethodAux	client/node_modules/nan/nan.h	/^SetMethodAux(T recv,$/;"	f	namespace:Nan::imp
+SetNamedPropertyHandler	client/node_modules/nan/nan.h	/^inline void SetNamedPropertyHandler($/;"	f	namespace:Nan
+SetNull	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void SetNull() {$/;"	f	class:ReturnValue
+SetNull	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void SetNull() {$/;"	f	class:ReturnValue
+SetPrivate	client/node_modules/nan/nan_private.h	/^inline Maybe<bool> SetPrivate($/;"	f
+SetPrototype	client/node_modules/nan/nan_maybe_43_inl.h	/^inline Maybe<bool> SetPrototype($/;"	f
+SetPrototype	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^inline Maybe<bool> SetPrototype($/;"	f
+SetPrototypeMethod	client/node_modules/nan/nan.h	/^inline void SetPrototypeMethod($/;"	f	namespace:Nan
+SetPrototypeTemplate	client/node_modules/nan/nan.h	/^inline void SetPrototypeTemplate($/;"	f	namespace:Nan
+SetTemplate	client/node_modules/nan/nan.h	/^  inline void SetTemplate($/;"	f	namespace:Nan
+SetUndefined	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline void SetUndefined() {$/;"	f	class:ReturnValue
+SetUndefined	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline void SetUndefined() {$/;"	f	class:ReturnValue
+SetVerbose	client/node_modules/nan/nan.h	/^  inline void SetVerbose(bool value) { try_catch_.SetVerbose(value); }$/;"	f	class:Nan::TryCatch
+SetWeak	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline void SetWeak($/;"	f	class:Global
+SetWeak	client/node_modules/nan/nan_weak.h	/^inline void Persistent<T, M>::SetWeak($/;"	f	class:Persistent
+SetWeak	client/node_modules/nan/nan_weak.h	/^inline void PersistentBase<T>::SetWeak($/;"	f	class:PersistentBase
+SetterCallback	client/node_modules/nan/nan_callbacks.h	/^typedef void(*SetterCallback)($/;"	t
+SetterCallbackWrapper	client/node_modules/nan/nan_callbacks_12_inl.h	/^void SetterCallbackWrapper($/;"	f	namespace:imp
+SetterCallbackWrapper	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^void SetterCallbackWrapper($/;"	f	namespace:imp
+Sig	client/node_modules/nan/nan_callbacks.h	/^typedef v8::Local<v8::AccessorSignature> Sig;$/;"	t	namespace:imp
+Signal	client/node_modules/nan/nan.h	/^    void Signal() const {$/;"	f	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+StackTrace	client/node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> StackTrace() const {$/;"	f	class:Nan::TryCatch
+StackTrace	client/node_modules/nan/nan.h	/^  inline v8::MaybeLocal<v8::Value> StackTrace() const {$/;"	f	class:Nan::TryCatch
+Stringify	client/node_modules/nan/nan_json.h	/^  Nan::MaybeLocal<v8::String> Stringify(v8::Local<v8::Object> json_object) {$/;"	f	class:JSON
+Stringify	client/node_modules/nan/nan_json.h	/^  Nan::MaybeLocal<v8::String> Stringify(v8::Local<v8::Object> json_object,$/;"	f	class:JSON
+TEST_OPTS	client/node_modules/json-stringify-safe/Makefile	/^TEST_OPTS =$/;"	m
+THIS_DIR	client/node_modules/body-parser/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	client/node_modules/compression/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	client/node_modules/express/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	client/node_modules/finalhandler/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	client/node_modules/send/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	client/node_modules/serve-index/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	client/node_modules/snapdragon/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_DIR	node_modules/mquery/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/body-parser/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/compression/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/express/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/finalhandler/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/send/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/serve-index/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	client/node_modules/snapdragon/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+THIS_MAKEFILE_PATH	node_modules/mquery/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+TYPE_CHECK	client/node_modules/nan/nan.h	143;"	d
+TYPE_CHECK	client/node_modules/nan/nan.h	2860;"	d
+Tap	client/node_modules/nan/nan.h	/^  explicit Tap(v8::Local<v8::Value> t) : t_() {$/;"	f	struct:Nan::Tap
+Tap	client/node_modules/nan/nan.h	/^struct Tap {$/;"	s	namespace:Nan
+This	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return info_.This(); }$/;"	f	class:FunctionCallbackInfo
+This	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return info_.This(); }$/;"	f	class:PropertyCallbackInfo
+This	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return args_.This(); }$/;"	f	class:FunctionCallbackInfo
+This	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Object> This() const { return info_.This(); }$/;"	f	class:PropertyCallbackInfoBase
+ThrowError	client/node_modules/nan/nan.h	/^  inline void ThrowError(v8::Local<v8::Value> error) {$/;"	f	namespace:Nan
+To	client/node_modules/nan/nan.h	/^  inline bool To(T* out) const {$/;"	f	class:Nan::Maybe
+To	client/node_modules/nan/nan_converters.h	/^typename imp::ToFactory<T>::return_t To(v8::Local<v8::Value> val) {$/;"	f
+To	client/node_modules/nan/nan_new.h	/^To<v8::Int32>(v8::Local<v8::Integer> i) {$/;"	f	namespace:imp
+To	client/node_modules/nan/nan_new.h	/^To<v8::Integer>(v8::Local<v8::Integer> i) {$/;"	f	namespace:imp
+To	client/node_modules/nan/nan_new.h	/^To<v8::Uint32>(v8::Local<v8::Integer> i) {$/;"	f	namespace:imp
+ToArrayIndex	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::Uint32> ToArrayIndex(v8::Local<v8::Value> val) {$/;"	f
+ToArrayIndex	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::Uint32> ToArrayIndex(v8::Handle<v8::Value> val) {$/;"	f
+ToChecked	client/node_modules/nan/nan.h	/^  inline T ToChecked() const { return FromJust(); }$/;"	f	class:Nan::Maybe
+ToDetailString	client/node_modules/nan/nan_maybe_43_inl.h	/^MaybeLocal<v8::String> ToDetailString(v8::Local<v8::Value> val) {$/;"	f
+ToDetailString	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^MaybeLocal<v8::String> ToDetailString(v8::Handle<v8::Value> val) {$/;"	f
+ToFactory	client/node_modules/nan/nan_converters.h	/^struct ToFactory<v8::Function> : ToFactoryBase<v8::Function> {$/;"	s	namespace:imp
+ToFactoryBase	client/node_modules/nan/nan_converters.h	/^template<typename T> struct ToFactoryBase {$/;"	s	namespace:imp
+ToLocal	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline bool ToLocal(v8::Local<S> *out) const {$/;"	f	class:MaybeLocal
+ToLocalChecked	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^  inline v8::Local<T> ToLocalChecked() const {$/;"	f	class:MaybeLocal
+True	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Boolean> True() {$/;"	f	namespace:Nan
+TryCatch	client/node_modules/nan/nan.h	/^  TryCatch() : try_catch_(v8::Isolate::GetCurrent()) {}$/;"	f	class:Nan::TryCatch
+TryCatch	client/node_modules/nan/nan.h	/^class TryCatch {$/;"	c	namespace:Nan
+TypedArrayContents	client/node_modules/nan/nan_typedarray_contents.h	/^  inline explicit TypedArrayContents(v8::Local<v8::Value> from) :$/;"	f	class:TypedArrayContents
+TypedArrayContents	client/node_modules/nan/nan_typedarray_contents.h	/^class TypedArrayContents {$/;"	c
+UCS2	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+UTF8	client/node_modules/nan/nan.h	/^enum Encoding {ASCII, UTF8, BASE64, UCS2, BINARY, HEX, BUFFER};$/;"	e	enum:Nan::Encoding
+UTILS	client/node_modules/es-to-primitive/Makefile	/^UTILS := semver$/;"	m
+UTILS	client/node_modules/is-symbol/Makefile	/^UTILS := semver$/;"	m
+UTIL_CHECK	client/node_modules/es-to-primitive/Makefile	/^UTIL_CHECK := $(or $(shell PATH="$(PATH)" which $(UTILS) >\/dev\/null && echo 'ok'),$(error Did you forget to run `npm install` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))$/;"	m
+UTIL_CHECK	client/node_modules/is-symbol/Makefile	/^UTIL_CHECK := $(or $(shell PATH="$(PATH)" which $(UTILS) >\/dev\/null && echo 'ok'),$(error Did you forget to run `npm install` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))$/;"	m
+UV_VERSION_PATCH	client/node_modules/nan/nan.h	80;"	d
+UnboundScript	client/node_modules/nan/nan.h	/^typedef v8::Script             UnboundScript;$/;"	t	namespace:Nan
+UnboundScript	client/node_modules/nan/nan.h	/^typedef v8::UnboundScript      UnboundScript;$/;"	t	namespace:Nan
+Uncompilable	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  template<typename O> inline static void Uncompilable() {$/;"	f	class:NonCopyablePersistentTraits
+Undefined	client/node_modules/nan/nan.h	/^  inline v8::Local<v8::Primitive> Undefined() {$/;"	f	namespace:Nan
+Unref	client/node_modules/nan/nan_object_wrap.h	/^  virtual void Unref() {$/;"	f	class:ObjectWrap
+Unwrap	client/node_modules/nan/nan_object_wrap.h	/^  static inline T* Unwrap(v8::Local<v8::Object> object) {$/;"	f	class:ObjectWrap
+Utf8String	client/node_modules/nan/nan.h	/^  inline explicit Utf8String(v8::Local<v8::Value> from) :$/;"	f	class:Nan::Utf8String
+Utf8String	client/node_modules/nan/nan.h	/^class Utf8String {$/;"	c	namespace:Nan
+VERSIONED_FILES	client/node_modules/es-to-primitive/Makefile	/^VERSIONED_FILES := *.js *.json README*$/;"	m
+VERSIONED_FILES	client/node_modules/is-symbol/Makefile	/^VERSIONED_FILES := *.js *.json README*$/;"	m
+Value	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Handle<T> Value() {$/;"	f	class:imp::ReturnValueImp
+ValueFactoryBase	client/node_modules/nan/nan_converters.h	/^template<typename T> struct ValueFactoryBase { typedef Maybe<T> return_t; };$/;"	s	namespace:imp
+WeakCallback	client/node_modules/nan/nan_object_wrap.h	/^  WeakCallback(v8::WeakCallbackInfo<ObjectWrap> const& info) {$/;"	f	class:ObjectWrap
+WeakCallbackInfo	client/node_modules/nan/nan_weak.h	/^  WeakCallbackInfo($/;"	f	class:WeakCallbackInfo
+WeakCallbackInfo	client/node_modules/nan/nan_weak.h	/^class WeakCallbackInfo {$/;"	c
+WeakCallbackType	client/node_modules/nan/nan.h	/^  WeakCallbackType(E other) : type(other) {}  \/\/ NOLINT(runtime\/explicit)$/;"	f	struct:Nan::WeakCallbackType
+WeakCallbackType	client/node_modules/nan/nan.h	/^  typedef v8::WeakCallbackType WeakCallbackType;$/;"	t	namespace:Nan
+WeakCallbackType	client/node_modules/nan/nan.h	/^struct WeakCallbackType {$/;"	s	namespace:Nan
+WorkComplete	client/node_modules/nan/nan.h	/^  virtual void WorkComplete() {$/;"	f	class:Nan::AsyncWorker
+WorkComplete	client/node_modules/nan/nan.h	/^  void WorkComplete() {$/;"	f	class:Nan::AsyncProgressQueueWorker
+WorkProgress	client/node_modules/nan/nan.h	/^  void WorkProgress() {$/;"	f	class:Nan::AsyncProgressQueueWorker
+WorkProgress	client/node_modules/nan/nan.h	/^  void WorkProgress() {$/;"	f	class:Nan::AsyncProgressWorkerBase
+Wrap	client/node_modules/nan/nan_object_wrap.h	/^  inline void Wrap(v8::Local<v8::Object> object) {$/;"	f	class:ObjectWrap
+X	client/node_modules/nan/nan.h	1282;"	d
+X	client/node_modules/nan/nan.h	1310;"	d
+X	client/node_modules/nan/nan.h	843;"	d
+X	client/node_modules/nan/nan.h	872;"	d
+X	client/node_modules/nan/nan_converters.h	28;"	d
+X	client/node_modules/nan/nan_converters.h	42;"	d
+X	client/node_modules/nan/nan_converters.h	44;"	d
+X	client/node_modules/nan/nan_converters.h	56;"	d
+X	client/node_modules/nan/nan_converters_43_inl.h	12;"	d
+X	client/node_modules/nan/nan_converters_43_inl.h	40;"	d
+X	client/node_modules/nan/nan_converters_43_inl.h	42;"	d
+X	client/node_modules/nan/nan_converters_43_inl.h	66;"	d
+X	client/node_modules/nan/nan_converters_pre_43_inl.h	12;"	d
+X	client/node_modules/nan/nan_converters_pre_43_inl.h	26;"	d
+X	client/node_modules/nan/nan_converters_pre_43_inl.h	28;"	d
+X	client/node_modules/nan/nan_converters_pre_43_inl.h	40;"	d
+YARN	client/node_modules/body-parser/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	client/node_modules/compression/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	client/node_modules/expand-brackets/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	client/node_modules/express/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	client/node_modules/finalhandler/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	client/node_modules/send/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	client/node_modules/serve-index/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	client/node_modules/snapdragon/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+YARN	node_modules/mquery/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+add	client/node_modules/terser/tools/props.html	/^      function add(name) {$/;"	f
+add	client/node_modules/uglify-js/tools/props.html	/^      function add(name) {$/;"	f
+addObject	client/node_modules/terser/tools/props.html	/^      function addObject(obj) {$/;"	f
+addObject	client/node_modules/uglify-js/tools/props.html	/^      function addObject(obj) {$/;"	f
+args_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  const v8::Arguments &args_;$/;"	m	class:FunctionCallbackInfo
+async	client/node_modules/nan/nan.h	/^  uv_async_t async;$/;"	m	class:Nan::AsyncBareProgressWorkerBase
+async_lock	client/node_modules/nan/nan.h	/^  uv_mutex_t async_lock;$/;"	m	class:Nan::AsyncBareProgressWorker
+async_lock	client/node_modules/nan/nan.h	/^  uv_mutex_t async_lock;$/;"	m	class:Nan::AsyncProgressQueueWorker
+async_resource	client/node_modules/nan/nan.h	/^  AsyncResource *async_resource;$/;"	m	class:Nan::AsyncWorker
+asyncdata_	client/node_modules/nan/nan.h	/^  T *asyncdata_;$/;"	m	class:Nan::AsyncProgressWorkerBase
+asyncdata_	client/node_modules/nan/nan.h	/^  std::queue<std::pair<T*, size_t> > asyncdata_;$/;"	m	class:Nan::AsyncProgressQueueWorker
+asyncsize_	client/node_modules/nan/nan.h	/^  size_t asyncsize_;$/;"	m	class:Nan::AsyncProgressWorkerBase
+base64_encode	client/node_modules/nan/nan_string_bytes.h	/^static size_t base64_encode(const char* src,$/;"	f	namespace:imp
+base64_encoded_size	client/node_modules/nan/nan_string_bytes.h	301;"	d
+base64_encoded_size	client/node_modules/nan/nan_string_bytes.h	37;"	d
+binary_to_desktop_file	client/node_modules/open/xdg-open	/^binary_to_desktop_file()$/;"	f
+binary_to_desktop_file	client/node_modules/opn/xdg-open	/^binary_to_desktop_file()$/;"	f
+callback	client/node_modules/nan/nan.h	/^  Callback *callback;$/;"	m	class:Nan::AsyncWorker
+callback_	client/node_modules/nan/nan_weak.h	/^  Callback callback_;$/;"	m	class:WeakCallbackInfo
+check_common_commands	client/node_modules/open/xdg-open	/^check_common_commands()$/;"	f
+check_common_commands	client/node_modules/opn/xdg-open	/^check_common_commands()$/;"	f
+check_input_file	client/node_modules/open/xdg-open	/^check_input_file()$/;"	f
+check_input_file	client/node_modules/opn/xdg-open	/^check_input_file()$/;"	f
+check_output_file	client/node_modules/open/xdg-open	/^check_output_file()$/;"	f
+check_output_file	client/node_modules/opn/xdg-open	/^check_output_file()$/;"	f
+check_vendor_prefix	client/node_modules/open/xdg-open	/^check_vendor_prefix()$/;"	f
+check_vendor_prefix	client/node_modules/opn/xdg-open	/^check_vendor_prefix()$/;"	f
+cmp	client/node_modules/terser/tools/props.html	/^      function cmp(a, b) {$/;"	f
+cmp	client/node_modules/uglify-js/tools/props.html	/^      function cmp(a, b) {$/;"	f
+contains_non_ascii	client/node_modules/nan/nan_string_bytes.h	/^static bool contains_non_ascii(const char* src, size_t len) {$/;"	f	namespace:imp
+contains_non_ascii_slow	client/node_modules/nan/nan_string_bytes.h	/^static bool contains_non_ascii_slow(const char* buf, size_t len) {$/;"	f	namespace:imp
+context	client/node_modules/nan/nan.h	/^  node::async_context context;$/;"	m	class:Nan::AsyncResource
+convert	client/node_modules/nan/nan.h	/^  inline static MaybeLocal<T> convert(MaybeLocal<T> v) {$/;"	f	struct:Nan::imp::Maybefier
+convert	client/node_modules/nan/nan.h	/^  inline static MaybeLocal<T> convert(v8::Local<T> v) {$/;"	f	struct:Nan::imp::Maybefier
+convert	client/node_modules/nan/nan_converters.h	/^  static inline return_t convert(v8::Local<v8::Value> val) {$/;"	f	struct:imp::ToFactory
+data_	client/node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::Local<v8::Value> data_;$/;"	m	class:FunctionCallbackInfo
+data_	client/node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::Local<v8::Value> data_;$/;"	m	class:PropertyCallbackInfo
+data_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  const v8::Local<v8::Value> data_;$/;"	m	class:PropertyCallbackInfoBase
+data_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Local<v8::Value> data_;$/;"	m	class:FunctionCallbackInfo
+data_	client/node_modules/nan/nan_typedarray_contents.h	/^  T*      data_;$/;"	m	class:TypedArrayContents
+desktop_file_to_binary	client/node_modules/open/xdg-open	/^desktop_file_to_binary()$/;"	f
+desktop_file_to_binary	client/node_modules/opn/xdg-open	/^desktop_file_to_binary()$/;"	f
+detectDE	client/node_modules/open/xdg-open	/^detectDE()$/;"	f
+detectDE	client/node_modules/opn/xdg-open	/^detectDE()$/;"	f
+end	client/node_modules/nan/nan.h	/^  inline void end() {$/;"	f	struct:Nan::Tap
+errmsg_	client/node_modules/nan/nan.h	/^  char *errmsg_;$/;"	m	class:Nan::AsyncWorker
+exit_failure_file_missing	client/node_modules/open/xdg-open	/^exit_failure_file_missing()$/;"	f
+exit_failure_file_missing	client/node_modules/opn/xdg-open	/^exit_failure_file_missing()$/;"	f
+exit_failure_file_permission_read	client/node_modules/open/xdg-open	/^exit_failure_file_permission_read()$/;"	f
+exit_failure_file_permission_read	client/node_modules/opn/xdg-open	/^exit_failure_file_permission_read()$/;"	f
+exit_failure_file_permission_write	client/node_modules/open/xdg-open	/^exit_failure_file_permission_write()$/;"	f
+exit_failure_file_permission_write	client/node_modules/opn/xdg-open	/^exit_failure_file_permission_write()$/;"	f
+exit_failure_operation_failed	client/node_modules/open/xdg-open	/^exit_failure_operation_failed()$/;"	f
+exit_failure_operation_failed	client/node_modules/opn/xdg-open	/^exit_failure_operation_failed()$/;"	f
+exit_failure_operation_impossible	client/node_modules/open/xdg-open	/^exit_failure_operation_impossible()$/;"	f
+exit_failure_operation_impossible	client/node_modules/opn/xdg-open	/^exit_failure_operation_impossible()$/;"	f
+exit_failure_syntax	client/node_modules/open/xdg-open	/^exit_failure_syntax()$/;"	f
+exit_failure_syntax	client/node_modules/opn/xdg-open	/^exit_failure_syntax()$/;"	f
+exit_success	client/node_modules/open/xdg-open	/^exit_success()$/;"	f
+exit_success	client/node_modules/opn/xdg-open	/^exit_success()$/;"	f
+file_url_to_path	client/node_modules/open/xdg-open	/^file_url_to_path()$/;"	f
+file_url_to_path	client/node_modules/opn/xdg-open	/^file_url_to_path()$/;"	f
+first_word	client/node_modules/open/xdg-open	/^first_word()$/;"	f
+first_word	client/node_modules/opn/xdg-open	/^first_word()$/;"	f
+force_ascii	client/node_modules/nan/nan_string_bytes.h	/^static void force_ascii(const char* src, char* dst, size_t len) {$/;"	f	namespace:imp
+force_ascii_slow	client/node_modules/nan/nan_string_bytes.h	/^static void force_ascii_slow(const char* src, char* dst, size_t len) {$/;"	f	namespace:imp
+get_key	client/node_modules/open/xdg-open	/^get_key()$/;"	f
+get_key	client/node_modules/opn/xdg-open	/^get_key()$/;"	f
+handle	client/node_modules/nan/nan_object_wrap.h	/^  inline v8::Local<v8::Object> handle() const {$/;"	f	class:ObjectWrap
+handle_	client/node_modules/nan/nan.h	/^  Persistent<v8::Function> handle_;$/;"	m	class:Nan::Callback
+handle_	client/node_modules/nan/nan_object_wrap.h	/^  Persistent<v8::Object> handle_;$/;"	m	class:ObjectWrap
+has_display	client/node_modules/open/xdg-open	/^has_display()$/;"	f
+has_display	client/node_modules/opn/xdg-open	/^has_display()$/;"	f
+has_single_argument	client/node_modules/open/xdg-open	/^has_single_argument()$/;"	f
+has_single_argument	client/node_modules/opn/xdg-open	/^has_single_argument()$/;"	f
+has_value_	client/node_modules/nan/nan.h	/^  bool has_value_;$/;"	m	class:Nan::Maybe
+hex_encode	client/node_modules/nan/nan_string_bytes.h	/^static size_t hex_encode(const char* src, size_t slen, char* dst, size_t dlen) {$/;"	f	namespace:imp
+imp	client/node_modules/nan/nan.h	/^namespace imp {$/;"	n	namespace:Nan
+imp	client/node_modules/nan/nan_callbacks.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_callbacks_12_inl.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_converters.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_define_own_property_helper.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_implementation_12_inl.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_implementation_pre_12_inl.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_new.h	/^namespace imp {  \/\/ scnr$/;"	n
+imp	client/node_modules/nan/nan_new.h	/^namespace imp {$/;"	n
+imp	client/node_modules/nan/nan_string_bytes.h	/^namespace imp {$/;"	n
+info_	client/node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::FunctionCallbackInfo<T> &info_;$/;"	m	class:FunctionCallbackInfo
+info_	client/node_modules/nan/nan_callbacks_12_inl.h	/^  const v8::PropertyCallbackInfo<T> &info_;$/;"	m	class:PropertyCallbackInfo
+info_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  const v8::AccessorInfo &info_;$/;"	m	class:PropertyCallbackInfoBase
+internal_fields_	client/node_modules/nan/nan_weak.h	/^  void *internal_fields_[kInternalFieldsInWeakCallback];$/;"	m	class:WeakCallbackInfo
+invoke	client/node_modules/nan/nan_weak.h	/^void WeakCallbackInfo<T>::invoke(NAN_WEAK_CALLBACK_SIG_ data) {$/;"	f	class:WeakCallbackInfo
+invokeparameter	client/node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T>::invokeparameter(NAN_WEAK_PARAMETER_CALLBACK_SIG_ data) {$/;"	f	class:WeakCallbackInfo
+invoketwofield	client/node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T>::invoketwofield(NAN_WEAK_TWOFIELD_CALLBACK_SIG_ data) {$/;"	f	class:WeakCallbackInfo
+is_file_url_or_path	client/node_modules/open/xdg-open	/^is_file_url_or_path()$/;"	f
+is_file_url_or_path	client/node_modules/opn/xdg-open	/^is_file_url_or_path()$/;"	f
+isolate_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Isolate *isolate_;$/;"	m	class:ReturnValue
+isolate_	client/node_modules/nan/nan_weak.h	/^  v8::Isolate *isolate_;$/;"	m	class:WeakCallbackInfo
+kAccessorFieldCount	client/node_modules/nan/nan_callbacks.h	/^static const int kAccessorFieldCount =           3;$/;"	m	namespace:imp
+kArgsLength	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kArgsLength = 6;$/;"	m	class:PropertyCallbackInfo
+kArgsLength	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kArgsLength = 7;$/;"	m	class:FunctionCallbackInfo
+kArgsLength	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kArgsLength = 6;$/;"	m	class:PropertyCallbackInfoBase
+kArgsLength	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kArgsLength = 7;$/;"	m	class:FunctionCallbackInfo
+kCalleeIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kCalleeIndex = 5;$/;"	m	class:FunctionCallbackInfo
+kCalleeIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kCalleeIndex = 5;$/;"	m	class:FunctionCallbackInfo
+kContextSaveIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kContextSaveIndex = 6;$/;"	m	class:FunctionCallbackInfo
+kContextSaveIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kContextSaveIndex = 6;$/;"	m	class:FunctionCallbackInfo
+kDataIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kDataIndex =                    0;$/;"	m	namespace:imp
+kDataIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:FunctionCallbackInfo
+kDataIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:PropertyCallbackInfo
+kDataIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:FunctionCallbackInfo
+kDataIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kDataIndex = 4;$/;"	m	class:PropertyCallbackInfoBase
+kFunctionFieldCount	client/node_modules/nan/nan_callbacks.h	/^static const int kFunctionFieldCount =           2;$/;"	m	namespace:imp
+kFunctionIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kFunctionIndex =                1;$/;"	m	namespace:imp
+kGetterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kGetterIndex =                  1;$/;"	m	namespace:imp
+kHolderIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:FunctionCallbackInfo
+kHolderIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:PropertyCallbackInfo
+kHolderIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:FunctionCallbackInfo
+kHolderIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kHolderIndex = 0;$/;"	m	class:PropertyCallbackInfoBase
+kIndexPropertyDeleterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyDeleterIndex =    4;$/;"	m	namespace:imp
+kIndexPropertyEnumeratorIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyEnumeratorIndex = 3;$/;"	m	namespace:imp
+kIndexPropertyFieldCount	client/node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyFieldCount =      6;$/;"	m	namespace:imp
+kIndexPropertyGetterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyGetterIndex =     1;$/;"	m	namespace:imp
+kIndexPropertyQueryIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertyQueryIndex =      5;$/;"	m	namespace:imp
+kIndexPropertySetterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kIndexPropertySetterIndex =     2;$/;"	m	namespace:imp
+kInternalFields	client/node_modules/nan/nan.h	/^  enum E {kParameter, kInternalFields};$/;"	e	enum:Nan::WeakCallbackType::E
+kInternalFieldsInWeakCallback	client/node_modules/nan/nan_weak.h	/^static const int kInternalFieldsInWeakCallback = 2;$/;"	v
+kIsolateIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:FunctionCallbackInfo
+kIsolateIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:PropertyCallbackInfo
+kIsolateIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:FunctionCallbackInfo
+kIsolateIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kIsolateIndex = 1;$/;"	m	class:PropertyCallbackInfoBase
+kMaxLength	client/node_modules/nan/nan.h	/^  static const size_t kMaxLength = 0x3fffffff;$/;"	m	namespace:Nan::imp
+kNoInternalFieldIndex	client/node_modules/nan/nan_weak.h	/^static const int kNoInternalFieldIndex = -1;$/;"	v
+kParameter	client/node_modules/nan/nan.h	/^  enum E {kParameter, kInternalFields};$/;"	e	enum:Nan::WeakCallbackType::E
+kPropertyDeleterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kPropertyDeleterIndex =         4;$/;"	m	namespace:imp
+kPropertyEnumeratorIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kPropertyEnumeratorIndex =      3;$/;"	m	namespace:imp
+kPropertyFieldCount	client/node_modules/nan/nan_callbacks.h	/^static const int kPropertyFieldCount =           6;$/;"	m	namespace:imp
+kPropertyGetterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kPropertyGetterIndex =          1;$/;"	m	namespace:imp
+kPropertyQueryIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kPropertyQueryIndex =           5;$/;"	m	namespace:imp
+kPropertySetterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kPropertySetterIndex =          2;$/;"	m	namespace:imp
+kReplaceInvalidUtf8	client/node_modules/nan/nan.h	/^  static const unsigned kReplaceInvalidUtf8 = 0;$/;"	m	namespace:Nan::imp
+kReplaceInvalidUtf8	client/node_modules/nan/nan.h	/^  static const unsigned kReplaceInvalidUtf8 = v8::String::REPLACE_INVALID_UTF8;$/;"	m	namespace:Nan::imp
+kResetInDestructor	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  static const bool kResetInDestructor = false;$/;"	m	class:NonCopyablePersistentTraits
+kResetInDestructor	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  static const bool kResetInDestructor = true;$/;"	m	struct:CopyablePersistentTraits
+kReturnValueDefaultValueIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:FunctionCallbackInfo
+kReturnValueDefaultValueIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:PropertyCallbackInfo
+kReturnValueDefaultValueIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:FunctionCallbackInfo
+kReturnValueDefaultValueIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueDefaultValueIndex = 2;$/;"	m	class:PropertyCallbackInfoBase
+kReturnValueIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:FunctionCallbackInfo
+kReturnValueIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:PropertyCallbackInfo
+kReturnValueIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:FunctionCallbackInfo
+kReturnValueIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kReturnValueIndex = 3;$/;"	m	class:PropertyCallbackInfoBase
+kSetterIndex	client/node_modules/nan/nan_callbacks.h	/^static const int kSetterIndex =                  2;$/;"	m	namespace:imp
+kThisIndex	client/node_modules/nan/nan_callbacks_12_inl.h	/^  static const int kThisIndex = 5;$/;"	m	class:PropertyCallbackInfo
+kThisIndex	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  static const int kThisIndex = 5;$/;"	m	class:PropertyCallbackInfoBase
+kfmclient_fix_exit_code	client/node_modules/open/xdg-open	/^kfmclient_fix_exit_code()$/;"	f
+kfmclient_fix_exit_code	client/node_modules/opn/xdg-open	/^kfmclient_fix_exit_code()$/;"	f
+last_word	client/node_modules/open/xdg-open	/^last_word()$/;"	f
+last_word	client/node_modules/opn/xdg-open	/^last_word()$/;"	f
+length	client/node_modules/nan/nan.h	/^  inline int length() const {$/;"	f	class:Nan::Utf8String
+length	client/node_modules/nan/nan_typedarray_contents.h	/^  inline size_t length() const      { return length_; }$/;"	f	class:TypedArrayContents
+length_	client/node_modules/nan/nan.h	/^  int length_;$/;"	m	class:Nan::Utf8String
+length_	client/node_modules/nan/nan_typedarray_contents.h	/^  size_t  length_;$/;"	m	class:TypedArrayContents
+manualpage	client/node_modules/open/xdg-open	/^manualpage()$/;"	f
+manualpage	client/node_modules/opn/xdg-open	/^manualpage()$/;"	f
+n	client/node_modules/es-to-primitive/Makefile	/^	 printf "=== Bumping version **$$old_ver** to **$$new_ver** before committing and tagging:\\n=== TYPE 'proceed' TO PROCEED, anything else to abort: " && read response && [ "$$response" = 'proceed' ] || { echo 'Aborted.' >&2; exit 2; };  \\$/;"	m
+n	client/node_modules/is-symbol/Makefile	/^	 printf "=== Bumping version **$$old_ver** to **$$new_ver** before committing and tagging:\\n=== TYPE 'proceed' TO PROCEED, anything else to abort: " && read response && [ "$$response" = 'proceed' ] || { echo 'Aborted.' >&2; exit 2; };  \\$/;"	m
+nauv_key_create	client/node_modules/nan/nan.h	/^inline int nauv_key_create(nauv_key_t *key) {$/;"	f	namespace:Nan
+nauv_key_create	client/node_modules/nan/nan.h	/^inline int nauv_key_create(nauv_key_t* key) {$/;"	f	namespace:Nan
+nauv_key_delete	client/node_modules/nan/nan.h	/^inline void nauv_key_delete(nauv_key_t *key) {$/;"	f	namespace:Nan
+nauv_key_delete	client/node_modules/nan/nan.h	/^inline void nauv_key_delete(nauv_key_t* key) {$/;"	f	namespace:Nan
+nauv_key_get	client/node_modules/nan/nan.h	/^inline void* nauv_key_get(nauv_key_t *key) {$/;"	f	namespace:Nan
+nauv_key_get	client/node_modules/nan/nan.h	/^inline void* nauv_key_get(nauv_key_t* key) {$/;"	f	namespace:Nan
+nauv_key_set	client/node_modules/nan/nan.h	/^inline void nauv_key_set(nauv_key_t *key, void *value) {$/;"	f	namespace:Nan
+nauv_key_set	client/node_modules/nan/nan.h	/^inline void nauv_key_set(nauv_key_t* key, void* value) {$/;"	f	namespace:Nan
+nauv_key_t	client/node_modules/nan/nan.h	/^typedef pthread_key_t nauv_key_t;$/;"	t	namespace:Nan
+nauv_key_t	client/node_modules/nan/nan.h	/^typedef uv_key_t nauv_key_t;$/;"	t	namespace:Nan
+nauv_key_t	client/node_modules/nan/nan.h	/^} nauv_key_t;$/;"	t	namespace:Nan	typeref:struct:Nan::__anon1
+object	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^    Global* object;$/;"	m	struct:Global::RValue
+ok	client/node_modules/nan/nan.h	/^  inline void ok(bool isOk, const char *msg = NULL) {$/;"	f	struct:Nan::Tap
+open_cygwin	client/node_modules/open/xdg-open	/^open_cygwin()$/;"	f
+open_cygwin	client/node_modules/opn/xdg-open	/^open_cygwin()$/;"	f
+open_darwin	client/node_modules/open/xdg-open	/^open_darwin()$/;"	f
+open_darwin	client/node_modules/opn/xdg-open	/^open_darwin()$/;"	f
+open_dde	client/node_modules/open/xdg-open	/^open_dde()$/;"	f
+open_dde	client/node_modules/opn/xdg-open	/^open_dde()$/;"	f
+open_enlightenment	client/node_modules/open/xdg-open	/^open_enlightenment()$/;"	f
+open_enlightenment	client/node_modules/opn/xdg-open	/^open_enlightenment()$/;"	f
+open_envvar	client/node_modules/open/xdg-open	/^open_envvar()$/;"	f
+open_envvar	client/node_modules/opn/xdg-open	/^open_envvar()$/;"	f
+open_flatpak	client/node_modules/open/xdg-open	/^open_flatpak()$/;"	f
+open_flatpak	client/node_modules/opn/xdg-open	/^open_flatpak()$/;"	f
+open_generic	client/node_modules/open/xdg-open	/^open_generic()$/;"	f
+open_generic	client/node_modules/opn/xdg-open	/^open_generic()$/;"	f
+open_generic_xdg_file_mime	client/node_modules/open/xdg-open	/^open_generic_xdg_file_mime()$/;"	f
+open_generic_xdg_file_mime	client/node_modules/opn/xdg-open	/^open_generic_xdg_file_mime()$/;"	f
+open_generic_xdg_mime	client/node_modules/open/xdg-open	/^open_generic_xdg_mime()$/;"	f
+open_generic_xdg_mime	client/node_modules/opn/xdg-open	/^open_generic_xdg_mime()$/;"	f
+open_generic_xdg_x_scheme_handler	client/node_modules/open/xdg-open	/^open_generic_xdg_x_scheme_handler()$/;"	f
+open_generic_xdg_x_scheme_handler	client/node_modules/opn/xdg-open	/^open_generic_xdg_x_scheme_handler()$/;"	f
+open_gnome	client/node_modules/open/xdg-open	/^open_gnome()$/;"	f
+open_gnome	client/node_modules/opn/xdg-open	/^open_gnome()$/;"	f
+open_gnome3	client/node_modules/open/xdg-open	/^open_gnome3()$/;"	f
+open_gnome3	client/node_modules/opn/xdg-open	/^open_gnome3()$/;"	f
+open_kde	client/node_modules/open/xdg-open	/^open_kde()$/;"	f
+open_kde	client/node_modules/opn/xdg-open	/^open_kde()$/;"	f
+open_lxde	client/node_modules/open/xdg-open	/^open_lxde()$/;"	f
+open_lxde	client/node_modules/opn/xdg-open	/^open_lxde()$/;"	f
+open_lxqt	client/node_modules/open/xdg-open	/^open_lxqt()$/;"	f
+open_lxqt	client/node_modules/opn/xdg-open	/^open_lxqt()$/;"	f
+open_mate	client/node_modules/open/xdg-open	/^open_mate()$/;"	f
+open_mate	client/node_modules/opn/xdg-open	/^open_mate()$/;"	f
+open_xfce	client/node_modules/open/xdg-open	/^open_xfce()$/;"	f
+open_xfce	client/node_modules/opn/xdg-open	/^open_xfce()$/;"	f
+operator !=	client/node_modules/nan/nan.h	/^  bool operator!=(const Callback &other) const {$/;"	f	class:Nan::Callback
+operator !=	client/node_modules/nan/nan.h	/^  inline bool operator!=(E other) { return !operator==(other); }$/;"	f	struct:Nan::WeakCallbackType
+operator !=	client/node_modules/nan/nan.h	/^  inline bool operator!=(const Maybe &other) const {$/;"	f	class:Nan::Maybe
+operator !=	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator!=(const PersistentBase<S> &that) const {$/;"	f	class:PersistentBase
+operator !=	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator!=(const v8::Local<S> &that) const {$/;"	f	class:PersistentBase
+operator ()	client/node_modules/nan/nan.h	/^  NAN_DEPRECATED inline v8::Local<v8::Value> operator()($/;"	f	class:Nan::Callback
+operator ()	client/node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> operator()($/;"	f	class:Nan::Callback
+operator *	client/node_modules/nan/nan.h	/^  inline char* operator*() { return str_; }$/;"	f	class:Nan::Utf8String
+operator *	client/node_modules/nan/nan.h	/^  inline const char* operator*() const { return str_; }$/;"	f	class:Nan::Utf8String
+operator *	client/node_modules/nan/nan.h	/^  v8::Local<v8::Function> operator*() const { return GetFunction(); }$/;"	f	class:Nan::Callback
+operator *	client/node_modules/nan/nan_persistent_12_inl.h	/^  inline T *operator*() const { return *PersistentBase<T>::persistent; }$/;"	f	class:Persistent
+operator *	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline T *operator*() const { return *PersistentBase<T>::persistent; }$/;"	f	class:Persistent
+operator *	client/node_modules/nan/nan_typedarray_contents.h	/^  inline T* operator*()             { return data_;   }$/;"	f	class:TypedArrayContents
+operator *	client/node_modules/nan/nan_typedarray_contents.h	/^  inline const T* operator*() const { return data_;   }$/;"	f	class:TypedArrayContents
+operator =	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Global &operator=(Global<S> rhs) {$/;"	f	class:Global
+operator =	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent &operator=(const Persistent &that) {$/;"	f	class:Persistent
+operator =	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline Persistent &operator=(const Persistent<S, M2> &that) {$/;"	f	class:Persistent
+operator ==	client/node_modules/nan/nan.h	/^  bool operator==(const Callback &other) const {$/;"	f	class:Nan::Callback
+operator ==	client/node_modules/nan/nan.h	/^  inline bool operator==(E other) { return other == this->type; }$/;"	f	struct:Nan::WeakCallbackType
+operator ==	client/node_modules/nan/nan.h	/^  inline bool operator==(const Maybe &other) const {$/;"	f	class:Nan::Maybe
+operator ==	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator==(const PersistentBase<S> &that) const {$/;"	f	class:PersistentBase
+operator ==	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline bool operator==(const v8::Local<S> &that) const {$/;"	f	class:PersistentBase
+operator RValue	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline operator RValue() { return RValue(this); }$/;"	f	class:Global
+operator []	client/node_modules/nan/nan_callbacks_12_inl.h	/^  inline v8::Local<v8::Value> operator[](int i) const { return info_[i]; }$/;"	f	class:FunctionCallbackInfo
+operator []	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline v8::Local<v8::Value> operator[](int i) const { return args_[i]; }$/;"	f	class:FunctionCallbackInfo
+operator delete	client/node_modules/nan/nan.h	/^  void operator delete(void *, size_t) {$/;"	f	class:Nan::EscapableHandleScope
+operator delete	client/node_modules/nan/nan.h	/^  void operator delete(void *, size_t) {$/;"	f	class:Nan::HandleScope
+operator delete	client/node_modules/nan/nan_typedarray_contents.h	/^  void operator delete(void *, size_t) {$/;"	f	class:TypedArrayContents
+parameter_	client/node_modules/nan/nan_weak.h	/^  void *parameter_;$/;"	m	class:WeakCallbackInfo
+parse	client/node_modules/nan/nan_json.h	/^  inline v8::Local<v8::Value> parse(v8::Local<v8::Value> arg) {$/;"	f	class:JSON
+parse_cb_	client/node_modules/nan/nan_json.h	/^  Nan::Callback parse_cb_;$/;"	m	class:JSON
+pass	client/node_modules/nan/nan.h	/^  inline void pass(const char * msg = NULL) {$/;"	f	struct:Nan::Tap
+persistent	client/node_modules/nan/nan_object_wrap.h	/^  inline Persistent<v8::Object>& persistent() {$/;"	f	class:ObjectWrap
+persistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  v8::Persistent<T> persistent;$/;"	m	class:PersistentBase
+persistentHandle	client/node_modules/nan/nan.h	/^  Persistent<v8::Object> persistentHandle;$/;"	m	class:Nan::AsyncWorker
+persistent_	client/node_modules/nan/nan_weak.h	/^  v8::Persistent<v8::Value> persistent_;$/;"	m	class:WeakCallbackInfo
+plan	client/node_modules/nan/nan.h	/^  inline void plan(int i) {$/;"	f	struct:Nan::Tap
+refs_	client/node_modules/nan/nan_object_wrap.h	/^  int refs_;  \/\/ ro$/;"	m	class:ObjectWrap
+request	client/node_modules/nan/nan.h	/^  uv_work_t request;$/;"	m	class:Nan::AsyncWorker
+return_t	client/node_modules/nan/nan_converters.h	/^  typedef MaybeLocal<T> return_t;$/;"	t	struct:imp::ToFactoryBase
+return_t	client/node_modules/nan/nan_converters.h	/^template<typename T> struct ValueFactoryBase { typedef Maybe<T> return_t; };$/;"	t	struct:imp::ValueFactoryBase
+return_t	client/node_modules/nan/nan_new.h	/^  typedef MaybeLocal<T> return_t;$/;"	t	struct:imp::MaybeFactoryBase
+return_t	client/node_modules/nan/nan_new.h	/^  typedef typename FactoryBase<T>::return_t return_t;$/;"	t	struct:imp::IntegerFactory
+return_t	client/node_modules/nan/nan_new.h	/^  typedef v8::Local<T> return_t;$/;"	t	struct:imp::FactoryBase
+return_value_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<T> return_value_;$/;"	m	class:FunctionCallbackInfo
+return_value_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<T> return_value_;$/;"	m	class:PropertyCallbackInfo
+return_value_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<v8::Array> return_value_;$/;"	m	class:PropertyCallbackInfo
+return_value_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<v8::Boolean> return_value_;$/;"	m	class:PropertyCallbackInfo
+return_value_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  ReturnValue<v8::Integer> return_value_;$/;"	m	class:PropertyCallbackInfo
+retval_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<T> retval_;$/;"	m	class:FunctionCallbackInfo
+retval_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<T> retval_;$/;"	m	class:PropertyCallbackInfo
+retval_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<v8::Array> retval_;$/;"	m	class:PropertyCallbackInfo
+retval_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<v8::Boolean> retval_;$/;"	m	class:PropertyCallbackInfo
+retval_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<v8::Integer> retval_;$/;"	m	class:PropertyCallbackInfo
+runInAsyncScope	client/node_modules/nan/nan.h	/^  inline MaybeLocal<v8::Value> runInAsyncScope($/;"	f	class:Nan::AsyncResource
+scope	client/node_modules/nan/nan.h	/^  v8::EscapableHandleScope scope;$/;"	m	class:Nan::EscapableHandleScope
+scope	client/node_modules/nan/nan.h	/^  v8::HandleScope scope;$/;"	m	class:Nan::HandleScope
+search	client/node_modules/serve-index/public/directory.html	/^      function search() {$/;"	f
+search_desktop_file	client/node_modules/open/xdg-open	/^search_desktop_file()$/;"	f
+search_desktop_file	client/node_modules/opn/xdg-open	/^search_desktop_file()$/;"	f
+str_	client/node_modules/nan/nan.h	/^  char *str_;$/;"	m	class:Nan::Utf8String
+str_st_	client/node_modules/nan/nan.h	/^  char str_st_[1024];$/;"	m	class:Nan::Utf8String
+stringify	client/node_modules/nan/nan_json.h	/^  inline v8::Local<v8::Value> stringify(v8::Local<v8::Value> arg) {$/;"	f	class:JSON
+stringify	client/node_modules/nan/nan_json.h	/^  inline v8::Local<v8::Value> stringify(v8::Local<v8::Value> arg,$/;"	f	class:JSON
+stringify_cb_	client/node_modules/nan/nan_json.h	/^  Nan::Callback stringify_cb_;$/;"	m	class:JSON
+subscribe	client/node_modules/eventsource/example/index.html	/^function subscribe(es, ul) {$/;"	f
+t_	client/node_modules/nan/nan.h	/^  Persistent<v8::Object> t_;$/;"	m	struct:Nan::Tap
+that_	client/node_modules/nan/nan.h	/^    AsyncBareProgressQueueWorker* const that_;$/;"	m	class:Nan::AsyncBareProgressQueueWorker::ExecutionProgress
+that_	client/node_modules/nan/nan.h	/^    AsyncBareProgressWorker* const that_;$/;"	m	class:Nan::AsyncBareProgressWorker::ExecutionProgress
+tls_index	client/node_modules/nan/nan.h	/^  DWORD tls_index;$/;"	m	struct:Nan::__anon1
+try_catch_	client/node_modules/nan/nan.h	/^  v8::TryCatch try_catch_;$/;"	m	class:Nan::TryCatch
+type	client/node_modules/nan/nan.h	/^  E type;$/;"	m	struct:Nan::WeakCallbackType
+unwrap	client/node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T> *WeakCallbackInfo<T>::unwrap($/;"	f	class:WeakCallbackInfo
+unwrapparameter	client/node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T> *WeakCallbackInfo<T>::unwrapparameter($/;"	f	class:WeakCallbackInfo
+unwraptwofield	client/node_modules/nan/nan_weak.h	/^WeakCallbackInfo<T> *WeakCallbackInfo<T>::unwraptwofield($/;"	f	class:WeakCallbackInfo
+usage	client/node_modules/open/xdg-open	/^usage()$/;"	f
+usage	client/node_modules/opn/xdg-open	/^usage()$/;"	f
+val_	client/node_modules/nan/nan_maybe_pre_43_inl.h	/^  v8::Local<T> val_;$/;"	m	class:MaybeLocal
+value_	client/node_modules/nan/nan.h	/^  T value_;$/;"	m	class:Nan::Maybe
+value_	client/node_modules/nan/nan_callbacks_12_inl.h	/^  v8::ReturnValue<T> value_;$/;"	m	class:ReturnValue
+value_	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  v8::Persistent<T> *value_;$/;"	m	class:ReturnValue
+widenString	client/node_modules/nan/nan.h	/^widenString(std::vector<uint16_t> *ws, const uint8_t *s, int l) {$/;"	f	namespace:Nan::imp
+~AsyncBareProgressQueueWorker	client/node_modules/nan/nan.h	/^  virtual ~AsyncBareProgressQueueWorker() {$/;"	f	class:Nan::AsyncBareProgressQueueWorker
+~AsyncBareProgressWorker	client/node_modules/nan/nan.h	/^  virtual ~AsyncBareProgressWorker() {$/;"	f	class:Nan::AsyncBareProgressWorker
+~AsyncBareProgressWorkerBase	client/node_modules/nan/nan.h	/^  virtual ~AsyncBareProgressWorkerBase() {$/;"	f	class:Nan::AsyncBareProgressWorkerBase
+~AsyncProgressQueueWorker	client/node_modules/nan/nan.h	/^  virtual ~AsyncProgressQueueWorker() {$/;"	f	class:Nan::AsyncProgressQueueWorker
+~AsyncProgressWorkerBase	client/node_modules/nan/nan.h	/^  virtual ~AsyncProgressWorkerBase() {$/;"	f	class:Nan::AsyncProgressWorkerBase
+~AsyncResource	client/node_modules/nan/nan.h	/^  ~AsyncResource() {$/;"	f	class:Nan::AsyncResource
+~AsyncWorker	client/node_modules/nan/nan.h	/^  virtual ~AsyncWorker() {$/;"	f	class:Nan::AsyncWorker
+~Callback	client/node_modules/nan/nan.h	/^  ~Callback() {$/;"	f	class:Nan::Callback
+~FunctionCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ~FunctionCallbackInfo() {$/;"	f	class:FunctionCallbackInfo
+~Global	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline ~Global() { this->Reset(); }$/;"	f	class:Global
+~ObjectWrap	client/node_modules/nan/nan_object_wrap.h	/^  virtual ~ObjectWrap() {$/;"	f	class:ObjectWrap
+~Persistent	client/node_modules/nan/nan_persistent_pre_12_inl.h	/^  inline ~Persistent() {$/;"	f	class:Persistent
+~PropertyCallbackInfo	client/node_modules/nan/nan_callbacks_pre_12_inl.h	/^  inline ~PropertyCallbackInfo() {$/;"	f	class:PropertyCallbackInfo
+~Tap	client/node_modules/nan/nan.h	/^  ~Tap() { t_.Reset(); }  \/\/ not sure if necessary$/;"	f	struct:Nan::Tap
+~Utf8String	client/node_modules/nan/nan.h	/^  inline ~Utf8String() {$/;"	f	class:Nan::Utf8String
